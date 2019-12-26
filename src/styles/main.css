@@ -6394,7 +6394,7 @@ print {
 }
 
 @media screen and (max-width:768px) {
-    .level-item:not(: last-child) {
+    .level-item:not(:last-child) {
         margin-bottom: .75rem
     }
 }
@@ -6413,7 +6413,7 @@ print {
 
 @media screen and (min-width:769px),
 print {
-    .level-left .level-item:not(: last-child), .level-right .level-item:not(: last-child) {
+    .level-left .level-item:not(:last-child), .level-right .level-item:not(:last-child) {
         margin-right: .75rem
     }
 }
