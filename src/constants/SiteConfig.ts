@@ -9,7 +9,7 @@ const config = {
     dateFromFormat: '',
     dateFormat: '',
     siteDescription:
-      'Mudassar Ali is full-stack developer currently working with JavaScript and elixir. Changing imaginations into reality through code.',
+      'Mudassar Ali is full-stack developer currently working with JavaScript and Elixir. Changing imaginations into reality through code. A bit Open-Sourcer',
     siteRss: '/rss.xml',
     googleAnalyticsID: '',
     postDefaultCategoryID: 'Tech',
@@ -18,6 +18,8 @@ const config = {
     userName: 'MudassarAli',
     userEmail: 'mudassar@mudassarali.com',
     userTwitter: 'voidwebdev',
+    githubUrl: 'https://github.com/mudassar045',
+    blog: 'https://blog.mudassarali.com',
     menuLinks: [
       {
         name: 'Home',
