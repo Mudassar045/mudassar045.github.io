@@ -1,7 +1,8 @@
 import React from 'react'
 import SiteConfig from './../constants/SiteConfig'
+import Avatar from './../assets/mudassar-ali.jpg'
 
-export const Home = () => {
+const Home = () => {
 
     return(<>
         <section className="hero is-fullheight is-default">
@@ -10,10 +11,10 @@ export const Home = () => {
                     <div className="columns is-vcentered">
                         <div className="column is-two-thirds is-centered has-nice-link">
                             <div>
-                                <img id="profile-pic" src="mudassar-ali.jpg" width="160" height="160" alt="avatar"/>
+                                <img id="profile-pic" src={Avatar} width="160" height="160" alt="avatar"/>
                                 <h1 className="title is-2">{SiteConfig.userName}</h1>
-                                <h2 className="subtitle is-4">Full-Stack Software Developer</h2>
-                                <p>{SiteConfig.siteDescription}</p>
+                                <h2 className="subtitle is-4">{SiteConfig.whoAm}</h2>
+                                <p>{SiteConfig.homeDescription}</p>
                             </div>
                             <br/>
                             <p className="has-text-centered">
@@ -23,7 +24,7 @@ export const Home = () => {
                                     </span>
                                     <span>Writings</span>
                                 </a>
-                                <a className="button is-large is-white" href={SiteConfig.githubUrl}>
+                                <a className="button is-large is-white" href={SiteConfig.userGitHub}>
                                     <span className="icon">
                                         <i className="fa fa-github"></i>
                                     </span>
@@ -56,3 +57,5 @@ export const Home = () => {
         </section>
     </>);
 }
+
+export default Home
