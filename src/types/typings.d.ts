@@ -17,6 +17,10 @@ interface Config {
     userName: string
     userEmail: string
     userTwitter: string
+    userGitHub: string
+    blog: string
+    whoAm: string
+    homeDescription: string
     menuLinks: MenuLink []
     themeColor: string
     backgroundColor: string
