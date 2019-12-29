@@ -1,15 +1,16 @@
-const config = {
+const config: Config = {
     siteTitle: 'Mudassar Ali',
-    siteTitleShort: 'Mudassar Ali',
-    siteTitleAlt: 'Mudassar Ali',
+    siteTitleShort: 'MD',
+    siteTitleAlt: 'Mudassar',
     siteLogo: '/logos/logo-1024.png',
     siteUrl: 'https://www.mudassarali.com',
     repo: 'https://github.com/mudassar045/mudassarali.com',
     pathPrefix: '',
     dateFromFormat: '',
     dateFormat: '',
-    siteDescription:
-      'Mudassar Ali is full-stack developer currently working with JavaScript and Elixir. Changing imaginations into reality through code. A bit Open-Sourcer',
+    siteDescription: 'Mudassar Ali is a Full-stack Software Developer currently working with JavaScript and Elixir, changing imaginations into reality through code. A bit Open-Sourcer',
+    whoAm: 'A Full-Stack Software Developer & A Bit Open-Sourcer',
+    homeDescription: 'I love to make OSS contributions and Tools to serve different communities',
     siteRss: '/rss.xml',
     googleAnalyticsID: '',
     postDefaultCategoryID: 'Tech',
@@ -18,7 +19,7 @@ const config = {
     userName: 'MudassarAli',
     userEmail: 'mudassar@mudassarali.com',
     userTwitter: 'voidwebdev',
-    githubUrl: 'https://github.com/mudassar045',
+    userGitHub: 'https://github.com/mudassar045',
     blog: 'https://blog.mudassarali.com',
     menuLinks: [
       {
@@ -44,7 +45,7 @@ const config = {
     ],
     themeColor: '#3F80FF', // Used for setting manifest and progress theme colors.
     backgroundColor: '#ffffff',
-  } as Config
+  }
   
   // Make sure pathPrefix is empty if not needed
   if (config.pathPrefix === '/') {
