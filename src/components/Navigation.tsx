@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './../styles/main.css';
-
+import AnimalAvatar from './../assets/cool-cat.png'
 interface P {
 	menuLinks: MenuLink[]
 }
@@ -45,7 +45,9 @@ class Navigation extends Component<P, S> {
                     <div className="container">
                         <nav className="navbar has-shadow" role="navigation" aria-label="main navigation">
                         <div className="navbar-brand">
-                            <a id="unicorn-btn" className="navbar-item" href="https://mudassarali.com/unicorn" title="Click me!"><span>🦄</span></a>
+                            <a id="unicorn-btn" className="navbar-item" href="https://mudassarali.com">
+                                <img src={AnimalAvatar} alt="cat"/>
+                            </a>
                             <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false">
                                 <span aria-hidden="true"></span>
                                 <span aria-hidden="true"></span>
