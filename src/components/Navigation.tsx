@@ -1,6 +1,9 @@
-import React, { Component } from 'react';
-import './../styles/main.css';
-import AnimalAvatar from './../assets/cool-cat.png'
+import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
+import AnimalAvatar from '../assets/cool-cat.png'
+
+import '../styles/main.css'
+
 interface P {
 	menuLinks: MenuLink[]
 }
@@ -38,30 +41,26 @@ class Navigation extends Component<P, S> {
         
         const { menuLinks } = this.props
 
-        return (
-            <>
-                <div className="hero-head">
-                    <div className="container">
-                        <nav className="navbar has-shadow" role="navigation" aria-label="main navigation">
-                        <div className="navbar-brand">
-                            <a id="unicorn-btn" className="navbar-item" href="https://mudassarali.com">
-                                <img src={AnimalAvatar} alt="cat"/>
-                            </a>
-                        </div>
-                        <div className="navbar-menu">
-                            <div className="navbar-end">   
-                            {
-                                menuLinks.map(link => (
-                                    <a className="navbar-item is-tab" key={link.name} href={link.link} >{link.name}</a>
-                                ))
-                            }
-                            </div>
-                        </div>
-                        </nav>
+        return (<div className="hero-head">
+                <div className="container">
+                    <nav className="navbar has-shadow" role="navigation" aria-label="main navigation">
+                    <div className="navbar-brand">
+                        <Link id="unicorn-btn" className="navbar-item" to="/">
+                            <img src={AnimalAvatar} alt="cat"/>
+                        </Link>
                     </div>
+                    <div className="navbar-menu">
+                        <div className="navbar-end">   
+                        {
+                            menuLinks.map(link => (
+                                <Link className="navbar-item is-tab" key={link.name} to={link.link}>{link.name}</Link>
+                            ))
+                        }
+                        </div>
+                    </div>
+                    </nav>
                 </div>
-            </>
-        );
+            </div>);
     }
 }
 
