@@ -4,10 +4,11 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import { faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons'
 import SiteConfig from './../constants/SiteConfig'
 import Avatar from './../assets/mudassar-ali.jpg'
+import Layout from '../layout/Layout'
 
 const Home = () => {
 
-    return(<>
+    return(<Layout>
         <section className="hero is-fullheight is-default">
             <div className="hero-body">
                 <div id="info-container" className="container has-text-centered">
@@ -45,7 +46,7 @@ const Home = () => {
                 </div>
             </div>
         </section>
-    </>);
+    </Layout>);
 }
 
 export default Home

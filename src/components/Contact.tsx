@@ -1,6 +1,6 @@
 import React from 'react'
-import Layout from './../layout/Layout'
-import config from './../constants/SiteConfig'
+import Layout from '../layout/Layout'
+import config from '../constants/SiteConfig'
 
 const Contact = () => {
     return(<Layout>
