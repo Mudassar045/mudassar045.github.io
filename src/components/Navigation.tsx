@@ -36,7 +36,6 @@ class Navigation extends Component<P, S> {
 
     render() {
         
-        const { scrolled } = this.state
         const { menuLinks } = this.props
 
         return (
@@ -47,11 +46,6 @@ class Navigation extends Component<P, S> {
                         <div className="navbar-brand">
                             <a id="unicorn-btn" className="navbar-item" href="https://mudassarali.com">
                                 <img src={AnimalAvatar} alt="cat"/>
-                            </a>
-                            <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false">
-                                <span aria-hidden="true"></span>
-                                <span aria-hidden="true"></span>
-                                <span aria-hidden="true"></span>
                             </a>
                         </div>
                         <div className="navbar-menu">

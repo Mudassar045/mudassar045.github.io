@@ -10,7 +10,7 @@ const config: Config = {
     dateFormat: '',
     siteDescription: 'Mudassar Ali is a Full-stack Software Developer currently working with JavaScript and Elixir, changing imaginations into reality through code. A bit Open-Sourcer',
     whoAm: 'A Full-Stack Software Developer & A Bit Open-Sourcer',
-    homeDescription: 'I love to make OSS contributions and Tools to serve different communities',
+    homeDescription: 'I love to make Tools and OSS contributions to serve the different communities',
     siteRss: '/rss.xml',
     googleAnalyticsID: '',
     postDefaultCategoryID: 'Tech',
@@ -18,18 +18,18 @@ const config: Config = {
     newsletterEmbed: 'https://mudassarali.substack.com/embed',
     userName: 'MudassarAli',
     userEmail: 'mudassar@mudassarali.com',
-    userTwitter: 'voidwebdev',
+    userTwitter: 'https://twitter.com/voidwebdev',
     userGitHub: 'https://github.com/mudassar045',
     blog: 'https://blog.mudassarali.com',
     menuLinks: [
-      {
-        name: 'Home',
-        link: '/me/',
-      },
-      {
-        name: 'Projects',
-        link: '/projects/',
-      },
+      // {
+      //   name: 'Home',
+      //   link: '/me/',
+      // },
+      // {
+      //   name: 'Projects',
+      //   link: '/projects/',
+      // },
       {
         name: 'About',
         link: '/about/',
