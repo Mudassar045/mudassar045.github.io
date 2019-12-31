@@ -17,7 +17,7 @@ const config: Config = {
     newsletter: 'https://mudassarali.substack.com',
     newsletterEmbed: 'https://mudassarali.substack.com/embed',
     userName: 'MudassarAli',
-    userEmail: 'mudassar@mudassarali.com',
+    userEmail: 'mudassar.ali@cerp.org.pk',
     userTwitter: 'https://twitter.com/voidwebdev',
     userGitHub: 'https://github.com/mudassar045',
     blog: 'https://blog.mudassarali.com',
