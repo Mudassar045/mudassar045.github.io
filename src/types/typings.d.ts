@@ -18,6 +18,10 @@ interface Config {
     userEmail: string
     userTwitter: string
     userGitHub: string
+    userStackOverFlow: string
+    userLinkedIn: string
+    userFacebook: string
+    userInstagram: string
     blog: string
     whoAm: string
     homeDescription: string

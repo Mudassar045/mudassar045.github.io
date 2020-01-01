@@ -8,8 +8,8 @@ const config: Config = {
     pathPrefix: '',
     dateFromFormat: '',
     dateFormat: '',
-    siteDescription: 'Mudassar Ali is a Full-stack Software Developer currently working with JavaScript and Elixir, changing imaginations into reality through code. A bit Open-Sourcer',
-    whoAm: 'A Full-Stack Software Developer & A Bit Open-Sourcer',
+    siteDescription: 'Mudassar Ali is a full-stack Software Developer currently working with JavaScript and Elixir, changing imaginations into reality through code. A bit Open-Sourcer',
+    whoAm: 'A full-stack Software Developer & A Bit Open Sourcer',
     homeDescription: 'I love to make Tools and OSS contributions to serve the different communities',
     siteRss: '/rss.xml',
     googleAnalyticsID: '',
@@ -20,19 +20,23 @@ const config: Config = {
     userEmail: 'mudassar.ali@cerp.org.pk',
     userTwitter: 'https://twitter.com/voidwebdev',
     userGitHub: 'https://github.com/mudassar045',
-    blog: 'https://blog.mudassarali.com',
+    userStackOverFlow: 'https://stackoverflow.com/mudassar045',
+    userLinkedIn: 'https://www.linkedin.com/in/mudassar-ali-045/',
+    userFacebook: 'https://web.facebook.com/mudassar045',
+    userInstagram: 'https://web.instagram/voidwebdev',
+    blog: 'https://voidweb.dev',
     menuLinks: [
-      // {
-      //   name: 'Home',
-      //   link: '/me/',
-      // },
-      // {
-      //   name: 'Projects',
-      //   link: '/projects/',
-      // },
+      {
+        name: 'Home',
+        link: '/me/',
+      },
       {
         name: 'About',
         link: '/about/',
+      },
+      {
+        name: 'Works',
+        link: '/works/',
       },
       {
         name: 'Contact',
