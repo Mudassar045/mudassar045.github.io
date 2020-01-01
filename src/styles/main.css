@@ -11700,15 +11700,15 @@ a.navbar-item:not(.button) {
     opacity: 1
 }
 
-#unicorn-btn {
+#cool-cat-btn {
     transition: transform .3s ease-in-out
 }
 
-#unicorn-btn:hover {
+#cool-cat-btn:hover {
     transform: scale(1.8)
 }
 
-#unicorn-icon {
+#cool-cat-icon {
     margin-top: -80px;
     margin-bottom: 20px
 }

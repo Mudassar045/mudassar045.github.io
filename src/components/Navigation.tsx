@@ -41,11 +41,12 @@ class Navigation extends Component<P, S> {
         
         const { menuLinks } = this.props
 
-        return (<div className="hero-head">
+        return(
+            <div className="hero-head">
                 <div className="container">
                     <nav className="navbar has-shadow" role="navigation" aria-label="main navigation">
                     <div className="navbar-brand">
-                        <Link id="unicorn-btn" className="navbar-item" to="/">
+                        <Link id="cool-cat-btn" className="navbar-item" to="/">
                             <img src={AnimalAvatar} alt="cat"/>
                         </Link>
                     </div>
@@ -60,7 +61,8 @@ class Navigation extends Component<P, S> {
                     </div>
                     </nav>
                 </div>
-            </div>);
+            </div>
+            );
     }
 }
 
