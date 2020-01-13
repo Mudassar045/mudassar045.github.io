@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import AnimalAvatar from '../assets/cool-cat.png'
 
 import '../styles/main.css'
+import '../styles/helper.css'
 
 interface P {
 	menuLinks: MenuLink[]
@@ -46,7 +47,7 @@ class Navigation extends Component<P, S> {
                 <div className="container">
                     <nav className="navbar has-shadow" role="navigation" aria-label="main navigation">
                     <div className="navbar-brand">
-                        <Link id="cool-cat-btn" className="navbar-item" to="/">
+                        <Link id="cool-cat-btn" className="navbar-item navbar-icon" to="/">
                             <img src={AnimalAvatar} alt="cat"/>
                         </Link>
                     </div>

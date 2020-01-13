@@ -14,16 +14,16 @@ const About = () => {
                             <div className="column is-half is-narrow content">
                                 <h1 id="about-mudassar">About {config.userName}</h1>
                                 <p>I’m a full-stack Software Developer, working at <a href="https://labs.cerp.org.pk" rel="noopener noreferrer" target="_blank">CERP Pakistan</a>. I started, my professional journey back in July, 2019.
-                                   Currently working on <a href='https://mischool.pk' rel="noopener noreferrer" target="_blank"> MISchool</a>. While working, I add new features and improve user experience. I'm also an avid participant
-                                   in several local and international open source projects on <a href={config.userGitHub} rel="noopener noreferrer" target="_blank">GitHub</a></p>
+                                   Currently working on <a href='https://mischool.pk' rel="noopener noreferrer" target="_blank"> MISchool</a> as a Development Lead. While working, I add new features and improve UI/UX to reshape the Progressive Web Apps experience.
+                                   I'm also an avid participant in several local and international open source projects on <a href={config.userGitHub} rel="noopener noreferrer" target="_blank">GitHub</a></p>
                                 <h3 id="more">More</h3>
                                 <ul>
-                                    <li><a href="https://mudassarali.com/articles/about-me">About Me Blog Post</a></li>
+                                    <li><a href="https://blog.mudassarali.dev/articles/about-me">About Me Blog Post</a></li>
                                 </ul>
                                 <h3 id="links">Links</h3>
                                 <ul>
                                     <li><a href={config.userGitHub}>GitHub</a></li>
-                                    <li><a href={config.userStackOverFlow}>StackOverFlow</a></li>
+                                    <li><a href={config.userStackOverflow}>StackOverflow</a></li>
                                     <li><a href={config.userLinkedIn}>LinkedIn</a></li>
                                     <li><a href={config.userTwitter}>Twitter</a></li>
                                     <li><a href={config.userFacebook}>Facebook</a></li>

@@ -18,7 +18,7 @@ interface Config {
     userEmail: string
     userTwitter: string
     userGitHub: string
-    userStackOverFlow: string
+    userStackOverflow: string
     userLinkedIn: string
     userFacebook: string
     userInstagram: string
