@@ -19,6 +19,7 @@ const About = () => {
                                 <h3 id="more">More</h3>
                                 <ul>
                                     <li><a href="https://blog.mudassarali.dev/articles/about-me">About Me Blog Post</a></li>
+                                    <li><Link to="/uses">What tools I use</Link></li>
                                 </ul>
                                 <h3 id="links">Links</h3>
                                 <ul>

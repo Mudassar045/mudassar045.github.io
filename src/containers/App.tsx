@@ -5,6 +5,7 @@ import About from '../components/About'
 import Contact from '../components/Contact'
 import Article from '../components/Article'
 import Work from '../components/Work'
+import Tool from '../components/Tool'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
                   <Switch>
                         <Route exact path='/' component={ Home }></Route>      
                         <Route path='/me' component={ Home }></Route>
+                        <Route path="/uses" component={ Tool }></Route>
                         <Route path='/about' component={ About }></Route>
                         <Route path='/works' component={ Work }></Route>
                         <Route path='/contact' component={ Contact }></Route>
