@@ -6,6 +6,7 @@ import Contact from 'components/Contact'
 import Article from 'components/Article'
 import Work from 'components/Work'
 import Tool from 'components/Tool'
+import ImageGallery from 'components/ImageGallery'
 
 function App() {
 
@@ -15,7 +16,8 @@ function App() {
                   <Route path='/me' component={Home}></Route>
                   <Route path='/uses' component={Tool}></Route>
                   <Route path='/about' component={About}></Route>
-                  <Route path='/works' component={Work}></Route>
+                  <Route exact path='/works' component={Work}></Route>
+                  <Route path='/works/image-gallery' component={ImageGallery}></Route>
                   <Route path='/contact' component={Contact}></Route>
                   <Route path='/articles' component={Article}></Route>
             </Switch>
