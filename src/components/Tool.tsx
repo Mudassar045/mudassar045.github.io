@@ -1,13 +1,13 @@
 import React from 'react'
-import Layout from '../layout/Layout'
+import Layout from 'layout/Layout'
 
 const Tool = () => {
-    return(
+    return (
         <Layout>
             <section className="hero is-fullheight is-default">
                 <div className="hero-body">
                     <div className="container">
-                        <div className="columns is-vcentered is-centered is-text-centered" style={{marginBottom: 180}}>
+                        <div className="columns is-vcentered is-centered is-text-centered" style={{ marginBottom: 180 }}>
                             <div className="column is-half is-narrow content">
                                 <h1 id="contact">What Tools I use</h1>
                                 <p>Here's a list of all the tools I use. If I missed a category, just contact me and I'll make sure to add it.</p>
@@ -31,7 +31,7 @@ const Tool = () => {
                 </div>
             </section>
         </Layout>
-        );
+    )
 }
 
 export default Tool

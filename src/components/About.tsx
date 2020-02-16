@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import config from '../constants/SiteConfig'
-import Layout from '../layout/Layout'
+import config from 'constants/SiteConfig'
+import Layout from 'layout/Layout'
 
 const About = () => {
 
-    return(
+    return (
         <Layout>
             <section className="hero is-fullheight is-default">
                 <div className="hero-body">
@@ -37,7 +37,7 @@ const About = () => {
                 </div>
             </section>
         </Layout>
-        );
+    )
 }
 
 export default About

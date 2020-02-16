@@ -2,13 +2,13 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import { faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons'
-import SiteConfig from '../constants/SiteConfig'
-import Avatar from '../assets/mudassar-ali.jpg'
-import Layout from '../layout/Layout'
+import { Avatar } from 'assets/icon'
+import SiteConfig from 'constants/SiteConfig'
+import Layout from 'layout/Layout'
 
 const Home = () => {
 
-    return(
+    return (
         <Layout>
             <section className="hero is-fullheight is-default">
                 <div className="hero-body">
@@ -16,12 +16,12 @@ const Home = () => {
                         <div className="columns is-vcentered">
                             <div className="column is-two-thirds is-centered has-nice-link">
                                 <div>
-                                    <img id="profile-pic" src={Avatar} width="160" height="160" alt="avatar"/>
+                                    <img id="profile-pic" src={Avatar} width="160" height="160" alt="avatar" />
                                     <h1 className="title is-2">{SiteConfig.userName}</h1>
                                     <h2 className="subtitle is-4">{SiteConfig.whoAm}</h2>
                                     <p>{SiteConfig.homeDescription}</p>
                                 </div>
-                                <br/>
+                                <br />
                                 <p className="has-text-centered">
                                     <a className="button is-large is-white" href={SiteConfig.blog}>
                                         <span className="icon">
@@ -48,7 +48,7 @@ const Home = () => {
                 </div>
             </section>
         </Layout>
-        );
+    )
 }
 
 export default Home
