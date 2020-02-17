@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Motion, spring } from 'react-motion'
 import Layout from 'layout/Layout'
 
-const springSettings = { stiffness: 120, damping: 26 }
+const springSettings = { stiffness: 150, damping: 20 }
 const NEXT = 'show-next'
 
 interface S {
@@ -13,7 +13,7 @@ interface S {
 class ImageGallery extends Component {
 
 	state = {
-		images: [[320, 320], [320, 320], [320, 320], [320, 320], [320, 320], [320, 320], [320, 320], [320, 320]],
+		images: [[240, 280], [240, 280], [240, 280], [240, 280], [240, 280], [240, 280], [240, 280]],
 		currIamge: 0
 	}
 
@@ -61,17 +61,17 @@ class ImageGallery extends Component {
 						<div className="container">
 							<div className="columns is-vcentered is-centered is-text-centered">
 								<div className="column is-half is-narrow content">
-									<h3 >Image Gallery | React Motion </h3>
+									<h3>Image Gallery</h3>
 									<p> <a href="https://github.com/chenglou/react-motion" target="_blank" rel="noopener noreferrer">React Motion</a> is open-source library that solves animation problems.</p>
 									<div className="box" style={{ marginTop: 10 }}>
-										<Motion style={{ height: spring(currHeight), width: spring(currWidth) }}>
+										<Motion style={{ height: spring(currHeight), width: spring(currWidth - 20) }}>
 											{container =>
-												<div className="demo4-inner" style={container}>
+												<div className="image-gallery-inner" style={container}>
 													{configs.map((style: any, i: number) =>
 														<Motion key={i} style={style}>
 															{style =>
-																<figure className="image">
-																	<img className="demo4-photo" src={`image-gallery/${i}.jpeg`} style={style} width={320} height={320} alt="any-profile" />
+																<figure>
+																	<img className="image-gallery-item" src={`image-gallery/${i}.jpeg`} style={style} alt="any-profile" />
 																</figure>
 															}
 														</Motion>
@@ -80,7 +80,7 @@ class ImageGallery extends Component {
 											}
 										</Motion>
 										<div style={{ display: "flex", marginTop: 10, flexDirection: "row" }}>
-											<button className="button is-small is-primary" onClick={() => this.clickHandler('null')}>Previous</button>
+											<button className="button is-primary" onClick={() => this.clickHandler('null')}>⟵</button>
 											<input
 												style={{ width: "55%", margin: "auto" }}
 												type="range"
@@ -88,7 +88,7 @@ class ImageGallery extends Component {
 												max={images.length - 1}
 												value={currIamge}
 												onChange={this.handleChange} />
-											<button className="button is-small is-primary" onClick={this.clickHandler.bind(null, NEXT)}>Next</button>
+											<button className="button is-primary" onClick={this.clickHandler.bind(null, NEXT)}>⟶</button>
 										</div>
 									</div>
 								</div>
