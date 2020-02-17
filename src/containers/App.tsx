@@ -7,6 +7,7 @@ import Article from 'components/Article'
 import Work from 'components/Work'
 import Tool from 'components/Tool'
 import ImageGallery from 'components/ImageGallery'
+import Transliterate from 'components/Transliterate'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
                   <Route path='/about' component={About}></Route>
                   <Route exact path='/works' component={Work}></Route>
                   <Route path='/works/image-gallery' component={ImageGallery}></Route>
+                  <Route path='/works/transliterate' component={Transliterate}></Route>
                   <Route path='/contact' component={Contact}></Route>
                   <Route path='/articles' component={Article}></Route>
             </Switch>

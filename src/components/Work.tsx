@@ -19,6 +19,7 @@ class Work extends Component {
                                     <h3 id="more">My Works</h3>
                                     <ul>
                                         <li><Link to="/works/image-gallery">Image Gallery with React Motion</Link></li>
+                                        <li><Link to="/works/transliterate">Check out Transliteration Example</Link></li>
                                     </ul>
                                 </div>
                             </div>
