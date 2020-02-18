@@ -1,7 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Layout from 'layout/Layout'
-
+import transliterate from '@sindresorhus/transliterate'
 const Transliterate = () => {
+
+	const [input, setInput] = useState("")
+	const [output, setOuput] = useState("")
+
+	const doTransliterate = () => {
+		const transliterated_text = transliterate(input)
+		setOuput(transliterated_text)
+	}
 
 	return (
 		<Layout>
@@ -15,11 +23,11 @@ const Transliterate = () => {
 									&nbsp;with <a href="https://github.com/sindresorhus/transliterate" rel="noopener noreferrer" target="_blank">Transliterate</a>.
 									&nbsp;Convert Unicode characters to Latin characters using transliteration</p>
 								<div className="box">
-									<input className="input" placeholder="Enter in any language e.g. Urdu" />
+									<input className="input" placeholder="Enter in any language e.g. Urdu" onChange={(e) => setInput(e.target.value)} />
 									<p className="has-text-right" style={{ marginTop: 10 }}>
-										<button className="button is-primary is-small is-primary">Transliterate</button>
+										<button className="button is-primary is-small is-primary" onClick={() => doTransliterate()}>Transliterate</button>
 									</p>
-									<textarea placeholder="Output will be shown here" className="textarea" />
+									<textarea placeholder="Output will be shown here" value={output} className="textarea" />
 								</div>
 							</div>
 						</div>
