@@ -4,10 +4,26 @@ import transliterate from '@sindresorhus/transliterate'
 const Transliterate = () => {
 
 	const [output, setOuput] = useState("")
+	const [copyButtonText, setCopyButtonText] = useState("Copy to Clipboard")
 
 	const doTransliterate = (input: string) => {
 		const transliterated_text = transliterate(input)
 		setOuput(transliterated_text)
+	}
+
+	const copyToClipboard = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
+
+		// copying the output
+		navigator.clipboard.writeText(output)
+
+		// changing the text
+		setCopyButtonText("Copied!")
+
+		// reverting the button text
+		setTimeout(() => {
+			setCopyButtonText("Copy to Clipboard")
+		}, 1500);
+
 	}
 
 	return (
@@ -23,7 +39,10 @@ const Transliterate = () => {
 									&nbsp;Convert Unicode characters to Latin characters using transliteration</p>
 								<div className="box">
 									<input className="input" placeholder="Enter in any language e.g. Urdu" onChange={(e) => doTransliterate(e.target.value)} />
-									<textarea id={"output"} style={{ marginTop: 10 }} placeholder="Output will be shown here" value={output} className="textarea" />
+									<textarea className="textarea" style={{ marginTop: 10 }} placeholder="Output will be shown here" value={output} />
+									<p className="has-text-right" style={{ marginTop: 10 }}>
+										<button className="button is-primary is-small is-primary" disabled={output.length === 0 || copyButtonText === "Copied!" ? true : false} onClick={(e) => copyToClipboard(e)}>{copyButtonText}</button>
+									</p>
 								</div>
 							</div>
 						</div>
