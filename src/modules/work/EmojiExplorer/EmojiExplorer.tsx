@@ -32,17 +32,19 @@ const EmojiExplorer = () => {
 									<table className="table" style={{ marginTop: 10 }}>
 										<tbody>
 											{
-												emojis.map(emoji => <tr key={emoji.title}>
-													<td>
-														<div>
-															<figure>
-																<img src={emojiImageSrc(emoji.symbol)} height={24} width={24} alt={emoji.title} />
-															</figure>
-															<h3 className="title is-capitalized">{emoji.title}</h3>
-															<p className="subtitle is-6">{emoji.keywords}</p>
-														</div>
-													</td>
-												</tr>)
+												emojis
+													.sort((a, b) => a.title.localeCompare(b.title))
+													.map(emoji => <tr key={emoji.title}>
+														<td>
+															<div>
+																<figure>
+																	<img src={emojiImageSrc(emoji.symbol)} height={24} width={24} alt={emoji.title} />
+																</figure>
+																<h3 className="title is-capitalized">{emoji.title}</h3>
+																<p className="subtitle is-6">{emoji.keywords.split(' ').join(', ').toString()}</p>
+															</div>
+														</td>
+													</tr>)
 											}
 										</tbody>
 									</table>
