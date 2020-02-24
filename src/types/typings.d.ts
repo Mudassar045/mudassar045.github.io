@@ -34,4 +34,9 @@ interface MenuLink {
     name: string
     link: string
 }
-  
+
+interface Emoji {
+    title: string
+    symbol: string
+    keywords: string
+}

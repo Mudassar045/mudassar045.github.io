@@ -20,6 +20,7 @@ class Work extends Component {
                                     <ul>
                                         <li><Link to="/works/image-gallery">Image Gallery with React Motion</Link></li>
                                         <li><Link to="/works/transliterate">Check out Transliteration Example</Link></li>
+                                        <li><Link to="/works/emoji-explorer">Explore Emojis</Link></li>
                                     </ul>
                                 </div>
                             </div>
