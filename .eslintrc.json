@@ -1,38 +1,46 @@
-module.exports = {
-	parser: "@typescript-eslint/parser",
-	extends: [
+{
+	"parser": "@typescript-eslint/parser",
+	"extends": [
 		"plugin:react/recommended",
 		"plugin:@typescript-eslint/recommended"
 	],
-	parserOptions: {
-		ecmaVersion: 2018,
-		sourceType: "module",
-		ecmaFeatures: {
-			jsx: true
+	"parserOptions": {
+		"ecmaVersion": 2018,
+		"sourceType": "module",
+		"ecmaFeatures": {
+			"jsx": true
 		}
 	},
-	rules: {
-		camelcase: [
-			0,
-			{ properties: "never"
+	"rules": {
+		"@typescript-eslint/explicit-member-accessibility": [
+			"error",
+			{
+				"accessibility": "no-public"
+			}
+		],
+		"camelcase": [
+			"error",
+			{
+				"properties": "never"
 			}
 		],
 		"@typescript-eslint/camelcase": [
-			0,
-			{ properties: "never"
+			"error",
+			{
+				"properties": "never"
 			}
 		],
 		"react/prop-types": [
-			0
+			"error"
 		],
 		"@typescript-eslint/no-use-before-define": [
-			0
+			"error"
 		],
 		"@typescript-eslint/member-delimiter-style": [
 			"error",
 			{
-			multiline: {
-				delimiter: 'none'
+				"multiline": {
+					"delimiter": "none"
 				}
 			}
 		],
@@ -41,7 +49,8 @@ module.exports = {
 		],
 		"@typescript-eslint/prefer-const": [
 			0,
-			{ destructuring: "any"
+			{
+				"destructuring": "any"
 			}
 		],
 		"@typescript-eslint/ban-ts-ignore": [
@@ -54,9 +63,9 @@ module.exports = {
 			0
 		]
 	},
-	settings: {
-		react: {
-			version: "detect"
+	"settings": {
+		"react": {
+			"version": "detect"
 		}
 	}
-};
+}
