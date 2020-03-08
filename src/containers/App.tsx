@@ -9,6 +9,7 @@ import Tool from 'components/Tool'
 import ImageGallery from 'modules/work/ImageGallery'
 import Transliterate from 'modules/work/Transliterate'
 import EmojiExplorer from 'modules/work/EmojiExplorer/EmojiExplorer'
+import CharacterCounter from 'modules/work/CharacterCounter'
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
                   <Route path='/works/image-gallery' component={ImageGallery}></Route>
                   <Route path='/works/transliterate' component={Transliterate}></Route>
                   <Route path='/works/emoji-explorer' component={EmojiExplorer}></Route>
+                  <Route path='/works/character-counter' component={CharacterCounter}></Route>
                   <Route path='/contact' component={Contact}></Route>
                   <Route path='/articles' component={Article}></Route>
             </Switch>
