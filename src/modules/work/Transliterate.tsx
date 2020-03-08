@@ -7,11 +7,11 @@ const Transliterate = () => {
 	const [copyButtonText, setCopyButtonText] = useState("Copy to Clipboard")
 
 	const doTransliterate = (input: string) => {
-		const transliterated_text = transliterate(input)
-		setOuput(transliterated_text)
+		const transliteratedText = transliterate(input)
+		setOuput(transliteratedText)
 	}
 
-	const copyToClipboard = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
+	const copyToClipboard = () => {
 
 		// copying the output
 		navigator.clipboard.writeText(output)
@@ -41,7 +41,7 @@ const Transliterate = () => {
 									<input className="input" placeholder="Enter in any language e.g. Urdu" onChange={(e) => doTransliterate(e.target.value)} />
 									<textarea className="textarea" style={{ marginTop: 10 }} placeholder="Output will be shown here" value={output} />
 									<p className="has-text-right" style={{ marginTop: 10 }}>
-										<button className="button is-primary is-small is-primary" disabled={output.length === 0 || copyButtonText === "Copied!" ? true : false} onClick={(e) => copyToClipboard(e)}>{copyButtonText}</button>
+										<button className="button is-primary is-small is-primary" disabled={output.length === 0 || copyButtonText === "Copied!" ? true : false} onClick={() => copyToClipboard()}>{copyButtonText}</button>
 									</p>
 								</div>
 							</div>
