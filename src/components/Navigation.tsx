@@ -37,9 +37,15 @@ class Navigation extends Component<P, S> {
         }
     }
 
+    geCurrentPath = (): string => {
+        return window.location.pathname
+    }
+
     render() {
 
         const { menuLinks } = this.props
+
+        const path = this.geCurrentPath()
 
         return (
             <div className="hero-head">
@@ -54,7 +60,7 @@ class Navigation extends Component<P, S> {
                             <div className="navbar-end">
                                 {
                                     menuLinks.map(link => (
-                                        <Link className="navbar-item is-tab" key={link.name} to={link.link}>{link.name}</Link>
+                                        <Link className={`navbar-item is-tab ${path === link.link ? 'is-active' : ''}`} key={link.name} to={link.link}>{link.name}</Link>
                                     ))
                                 }
                             </div>

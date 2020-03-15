@@ -28,23 +28,23 @@ const config: Config = {
     menuLinks: [
       {
         name: 'Home',
-        link: '/me/',
+        link: '/me',
       },
       {
         name: 'About',
-        link: '/about/',
+        link: '/about',
       },
       {
         name: 'Works',
-        link: '/works/',
+        link: '/works',
       },
       {
         name: 'Contact',
-        link: '/contact/',
+        link: '/contact',
       },
       {
         name: 'Articles',
-        link: '/articles/',
+        link: '/articles',
       },
     ],
     themeColor: '#3F80FF', // Used for setting manifest and progress theme colors.
