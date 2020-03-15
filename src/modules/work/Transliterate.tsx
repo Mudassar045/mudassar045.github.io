@@ -6,7 +6,12 @@ const Transliterate = () => {
 	const [output, setOuput] = useState("")
 	const [copyButtonText, setCopyButtonText] = useState("Copy to Clipboard")
 
-	const doTransliterate = (input: string) => {
+	const doTransliterate = (input: string): void => {
+
+		if (input.trim().length === 0) {
+			return
+		}
+
 		const transliteratedText = transliterate(input)
 		setOuput(transliteratedText)
 	}
