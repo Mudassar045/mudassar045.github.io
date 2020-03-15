@@ -38,7 +38,7 @@ class Navigation extends Component<P, S> {
     }
 
     geCurrentPath = (): string => {
-        return window.location.pathname
+        return window.location.href
     }
 
     render() {
@@ -60,7 +60,7 @@ class Navigation extends Component<P, S> {
                             <div className="navbar-end">
                                 {
                                     menuLinks.map(link => (
-                                        <Link className={`navbar-item is-tab ${path === link.link ? 'is-active' : ''}`} key={link.name} to={link.link}>{link.name}</Link>
+                                        <Link className={`navbar-item is-tab ${path.includes(link.link) ? 'is-active' : ''}`} key={link.name} to={link.link}>{link.name}</Link>
                                     ))
                                 }
                             </div>
