@@ -16,7 +16,7 @@ const config: Config = {
     postDefaultCategoryID: 'Tech',
     newsletter: 'https://mudassarali.substack.com',
     newsletterEmbed: 'https://mudassarali.substack.com/embed',
-    userName: 'MudassarAli',
+    userName: 'Mudassar Ali',
     userEmail: 'mudassar.ali@cerp.org.pk',
     userTwitter: 'https://twitter.com/voidwebdev',
     userGitHub: 'https://github.com/mudassar045',
