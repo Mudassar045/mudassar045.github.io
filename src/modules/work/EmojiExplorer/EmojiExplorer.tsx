@@ -5,25 +5,25 @@ import { spring, TransitionMotion, presets } from 'react-motion'
 
 const EmojiExplorer = () => {
 
-	const random_emojis = getEmojis(50)
+	const randomEmojis = getEmojis(50)
 		.map((curr) => {
 			return {
 				key: curr.title,
 				data: curr
 			}
 		})
-	const [emojis, setEmojis] = useState(random_emojis)
+	const [emojis, setEmojis] = useState(randomEmojis)
 
 	const onChangeInput = (searchText: string) => {
 
-		const filtered_emojis = filterEmoji(searchText, 50)
+		const filteredEmojis = filterEmoji(searchText, 50)
 			.map((curr) => {
 				return {
 					key: curr.title,
 					data: curr
 				}
 			})
-		setEmojis(filtered_emojis)
+		setEmojis(filteredEmojis)
 	}
 
 	const emojiImageSrc = (symbol: any): string => {
@@ -70,7 +70,7 @@ const EmojiExplorer = () => {
 				<div className="hero-body">
 					<div className="container">
 						<div className="columns is-vcentered is-centered is-text-centered">
-							<div className="column content">
+							<div className="column is-two-thirds content">
 								<h3>Emoji Explorer - Find Emoji</h3>
 								<div className="box">
 									<input className="input" placeholder="Paste Emoji or Search e.g. Smile" onChange={(e) => onChangeInput(e.target.value)} />

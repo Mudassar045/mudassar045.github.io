@@ -11732,18 +11732,9 @@ code.highlighter-rouge {
         display: none!important
     }
 }
-
-@font-face {
-    font-family: font-awesome;
-    /* src: url(font-awesome.woff) format("woff"); */
-    font-weight: 400;
-    font-style: normal
-}
-
 [class^=fa-],
 [class*=fa-] {
     font-family: font-awesome!important;
-    speak: none;
     font-style: normal;
     font-weight: 400;
     font-variant: normal;
