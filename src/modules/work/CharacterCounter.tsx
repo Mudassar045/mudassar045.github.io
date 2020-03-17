@@ -15,28 +15,28 @@ const CharacterCounter = () => {
 		<section className="hero">
 			<div className="hero-body">
 				<div className="container">
-					<div className="columns is-vcentered is-centered is-text-centered">
+					<div className="columns is-vcentered is-centered">
 						<div className="column is-two-thirds content">
 							<h3>Character Counter</h3>
 							<p>Just playing with React useState() and with JS data structures</p>
-							<div className="box" style={{ marginTop: 10, overflowX: "auto" }}>
+							<div className="box" style={{ marginTop: 10 }}>
 								<textarea className="textarea" style={{ marginTop: 10 }} onChange={(e) => setInput(e.target.value)} placeholder="Start writing here..." />
-								<div className="columns is-mobile" style={{ marginTop: 10 }}>
-									<div className="column">
-										<p>Characters</p>
-										<p className="is-centered">{charactersCount}</p>
+								<div className="columns is-mobile" style={{ marginTop: 10, overflowX: "auto" }}>
+									<div className="column has-text-centered">
+										<p className="">Characters</p>
+										<p>{charactersCount}</p>
 									</div>
-									<div className="column">
-										<p>WhiteSpaces</p>
-										<p className="is-centered">{spacesCount}</p>
+									<div className="column has-text-centered">
+										<p>Spaces</p>
+										<p>{spacesCount}</p>
 									</div>
-									<div className="column">
+									<div className="column has-text-centered">
 										<p>Words</p>
-										<p className="is-centered">{wordsCount}</p>
+										<p>{wordsCount}</p>
 									</div>
-									<div className="column">
+									<div className="column has-text-centered">
 										<p>Sentences</p>
-										<p className="is-centered">{sentenceCount}</p>
+										<p>{sentenceCount}</p>
 									</div>
 								</div>
 							</div>
