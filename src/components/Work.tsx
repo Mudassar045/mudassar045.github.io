@@ -22,6 +22,7 @@ class Work extends Component {
                                         <li><Link to="/works/transliterate">Check out Transliteration Example</Link></li>
                                         <li><Link to="/works/emoji-explorer">Explore Emojis</Link></li>
                                         <li><Link to="/works/character-counter">Character Counter</Link></li>
+                                        <li><Link to="/works/random-string-generator">Random String Generator</Link></li>
                                     </ul>
                                 </div>
                             </div>
