@@ -46,6 +46,7 @@ const CharacterCounter = () => {
 									toggleCode && <pre>
 										<code className="language-javascript">
 											<span>{"let [input, setInput] = useState('')"}</span><br /><br />
+											<span>{"let charactersCount = input.split('').length"}</span> <br />
 											<span>{"let wordsCount = input ? input.split(' ').length : 0"}</span><br />
 											<span>{"let spacesCount = input ? wordsCount - 1 : 0"}</span><br />
 											<span>{"let sentenceCount = input ? input.split(/[.!?]+/).length - 1 : 0"}</span>
