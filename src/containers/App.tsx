@@ -11,6 +11,8 @@ import Transliterate from 'modules/work/Transliterate'
 import EmojiExplorer from 'modules/work/EmojiExplorer/EmojiExplorer'
 import CharacterCounter from 'modules/work/CharacterCounter'
 import RandomeStringGenerator from 'modules/work/StringsGenerator'
+import ReactBootstrap from 'modules/work/ReactBootstrap/'
+import OverlayTriggerExample from 'modules/work/ReactBootstrap/Overlays/OverlayTrigger'
 
 function App() {
 
@@ -26,6 +28,9 @@ function App() {
                   <Route path='/works/emoji-explorer' component={EmojiExplorer}></Route>
                   <Route path='/works/character-counter' component={CharacterCounter}></Route>
                   <Route path="/works/random-string-generator" component={RandomeStringGenerator}></Route>
+                  <Route exact path="/works/react-bootstrap" component={ReactBootstrap}></Route>
+                  <Route path="/works/react-bootstrap/overlay-trigger" component={OverlayTriggerExample}></Route>
+
                   <Route path='/contact' component={Contact}></Route>
                   <Route path='/articles' component={Article}></Route>
             </Switch>
