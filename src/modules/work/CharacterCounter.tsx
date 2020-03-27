@@ -1,4 +1,7 @@
 import React, { useState } from 'react'
+import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter'
+import { hopscotch } from 'react-syntax-highlighter/dist/esm/styles/prism';
+
 import Layout from 'layout/Layout'
 
 const CharacterCounter = () => {
@@ -10,6 +13,8 @@ const CharacterCounter = () => {
 	let wordsCount = input ? input.split(' ').length : 0
 	let spacesCount = input ? wordsCount - 1 : 0
 	let sentenceCount = input ? input.split(/[.!?]+/).length - 1 : 0
+
+	const codeString = "let [input, setInput] = useState('')\nlet wordsCount = input ? input.split(' ').length : 0\nlet spacesCount = input ? wordsCount - 1 : 0\nlet sentenceCount = input ? input.split(/[.!?]+/).length - 1 : 0"
 
 	return <Layout>
 		<section className="hero">
@@ -43,15 +48,9 @@ const CharacterCounter = () => {
 							<div className="box" style={{ marginTop: 10 }}>
 								<button className="button is-danger is-fullwidth" onClick={() => setToggleCode(!toggleCode)}>Show Code</button>
 								{
-									toggleCode && <pre>
-										<code className="language-javascript">
-											<span>{"let [input, setInput] = useState('')"}</span><br /><br />
-											<span>{"let charactersCount = input.split('').length"}</span> <br />
-											<span>{"let wordsCount = input ? input.split(' ').length : 0"}</span><br />
-											<span>{"let spacesCount = input ? wordsCount - 1 : 0"}</span><br />
-											<span>{"let sentenceCount = input ? input.split(/[.!?]+/).length - 1 : 0"}</span>
-										</code>
-									</pre>
+									toggleCode && <SyntaxHighlighter language="javascript" style={hopscotch}>
+										{codeString}
+									</SyntaxHighlighter>
 								}
 							</div>
 						</div>
