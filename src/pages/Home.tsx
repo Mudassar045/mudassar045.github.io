@@ -1,7 +1,9 @@
 import React from 'react'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import { faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons'
+
 import { Avatar } from 'assets/icon'
 import SiteConfig from 'constants/SiteConfig'
 import Layout from 'layout/Layout'

@@ -1,11 +1,13 @@
 import React from 'react'
 import { HashRouter as Router, Route, Switch } from 'react-router-dom'
-import Home from 'components/Home'
-import About from 'components/About'
-import Contact from 'components/Contact'
-import Article from 'components/Article'
-import Work from 'components/Work'
-import Tool from 'components/Tool'
+
+import Home from 'pages/Home'
+import About from 'pages/About'
+import Contact from 'pages/Contact'
+import Article from 'pages/Article'
+import Work from 'pages/Work'
+import Tool from 'pages/Tool'
+
 import ImageGallery from 'modules/work/ImageGallery'
 import Transliterate from 'modules/work/Transliterate'
 import EmojiExplorer from 'modules/work/EmojiExplorer/EmojiExplorer'
@@ -16,7 +18,7 @@ import OverlayTriggerExample from 'modules/work/ReactBootstrap/Overlays/OverlayT
 
 function App() {
 
-      return (<Router>
+      return <Router>
             <Switch>
                   <Route exact path='/' component={Home}></Route>
                   <Route path='/me' component={Home}></Route>
@@ -34,7 +36,7 @@ function App() {
                   <Route path='/contact' component={Contact}></Route>
                   <Route path='/articles' component={Article}></Route>
             </Switch>
-      </Router>)
+      </Router>
 }
 
 export default App

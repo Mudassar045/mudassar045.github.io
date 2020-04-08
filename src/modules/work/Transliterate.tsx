@@ -36,7 +36,7 @@ const Transliterate = () => {
 			<section className="hero">
 				<div className="hero-body">
 					<div className="container">
-						<div className="columns is-vcentered is-centered is-text-centered">
+						<div className="columns is-vcentered is-centered">
 							<div className="column is-half is-narrow content">
 								<h3>Transliteration</h3>
 								<p>An example of <a href="https://en.wikipedia.org/wiki/Transliteration" rel="noopener noreferrer" target="_blank">Transliteration</a>
@@ -44,7 +44,7 @@ const Transliterate = () => {
 									&nbsp;Convert Unicode characters to Latin characters using transliteration</p>
 								<div className="box">
 									<input className="input" placeholder="Enter in any language e.g. Urdu" onChange={(e) => doTransliterate(e.target.value)} />
-									<textarea className="textarea" style={{ marginTop: 10 }} placeholder="Output will be shown here" value={output} />
+									<textarea className="textarea" style={{ marginTop: 10 }} placeholder="Output will be shown here" value={output} readOnly />
 									<p className="has-text-right" style={{ marginTop: 10 }}>
 										<button className="button is-primary is-small is-primary" disabled={output.length === 0 || copyButtonText === "Copied!" ? true : false} onClick={() => copyToClipboard()}>{copyButtonText}</button>
 									</p>

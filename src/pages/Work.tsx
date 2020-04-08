@@ -8,7 +8,7 @@ const Work = () => {
         <section className="hero">
             <div className="hero-body">
                 <div className="container">
-                    <div className="columns is-vcentered is-centered is-text-centered">
+                    <div className="columns is-vcentered is-centered">
                         <div className="column is-half is-narrow content">
                             <h1 id="about-mudassar">What I really DO</h1>
                             <p>Most of the time I only do programming, learning about new technologies and explore something new every day.

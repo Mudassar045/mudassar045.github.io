@@ -9204,7 +9204,7 @@ const EmojiList: Emoji[] = [
 	}
   ]
 
-  export const filterEmoji = (searchText: string, maxReturn: number = 20) => {
+  export const filterEmoji = (searchText: string, maxReturn = 20) => {
 
 	const filtered_emojis = EmojiList.filter(emoji => {
 
@@ -9224,7 +9224,7 @@ const EmojiList: Emoji[] = [
 	return filtered_emojis.slice(0, maxReturn)
   }
 
-  export const getEmojis = (maxReturn: number = 20) => {
+  export const getEmojis = (maxReturn = 20) => {
 	return EmojiList.slice(0, maxReturn)
   }
 

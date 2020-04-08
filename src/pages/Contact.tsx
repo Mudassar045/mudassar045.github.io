@@ -1,14 +1,15 @@
 import React from 'react'
+
 import Layout from 'layout/Layout'
 import config from 'constants/SiteConfig'
 
 const Contact = () => {
-    return (
+    return <>
         <Layout>
             <section className="hero is-fullheight is-default">
                 <div className="hero-body">
                     <div className="container">
-                        <div className="columns is-vcentered is-centered is-text-centered" style={{ marginBottom: 180 }}>
+                        <div className="columns is-vcentered is-centered" style={{ marginBottom: 180 }}>
                             <div className="column is-half is-narrow content">
                                 <h1 id="contact">Contact</h1>
                                 <p>I value my time, so make it worth, and <a href="https://www.google.com/search?q=succinct+emails">keep it succinct</a>.</p>
@@ -25,7 +26,7 @@ const Contact = () => {
                 </div>
             </section>
         </Layout>
-    )
+    </>
 }
 
 export default Contact

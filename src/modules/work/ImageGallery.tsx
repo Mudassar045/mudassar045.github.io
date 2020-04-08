@@ -59,7 +59,7 @@ class ImageGallery extends Component {
 				<section className="hero">
 					<div className="hero-body">
 						<div className="container">
-							<div className="columns is-vcentered is-centered is-text-centered">
+							<div className="columns is-vcentered is-centered">
 								<div className="column is-half is-narrow content">
 									<h3>Image Gallery</h3>
 									<p> <a href="https://github.com/chenglou/react-motion" target="_blank" rel="noopener noreferrer">React Motion</a> is open-source library that solves animation problems.</p>

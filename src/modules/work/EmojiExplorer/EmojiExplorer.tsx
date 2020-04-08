@@ -69,7 +69,7 @@ const EmojiExplorer = () => {
 			<section className="hero">
 				<div className="hero-body">
 					<div className="container">
-						<div className="columns is-vcentered is-centered is-text-centered">
+						<div className="columns is-vcentered is-centered">
 							<div className="column is-two-thirds content">
 								<h3>Emoji Explorer - Find Emoji</h3>
 								<div className="box">

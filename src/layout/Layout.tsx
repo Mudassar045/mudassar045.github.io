@@ -1,6 +1,6 @@
 import React from 'react'
 import config from 'constants/SiteConfig'
-import Navigation from 'components/Navigation'
+import Navigation from 'pages/Navigation'
 
 type PropsType = {
     children: React.ReactNode
@@ -8,12 +8,10 @@ type PropsType = {
 
 const Layout = ({ children }: PropsType) => {
 
-    return (
-        <>
-            <Navigation menuLinks={config.menuLinks} />
-            {children}
-        </>
-    )
+    return <>
+        <Navigation menuLinks={config.menuLinks} />
+        {children}
+    </>
 }
 
 export default Layout

@@ -47,7 +47,7 @@ class Navigation extends Component<P, S> {
 
         const path = this.geCurrentPath()
 
-        return (
+        return <>
             <div className="hero-head">
                 <div className="container">
                     <nav className="navbar has-shadow" role="navigation" aria-label="main navigation">
@@ -68,7 +68,7 @@ class Navigation extends Component<P, S> {
                     </nav>
                 </div>
             </div>
-        )
+        </>
     }
 }
 
