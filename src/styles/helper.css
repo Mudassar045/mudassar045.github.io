@@ -20,6 +20,12 @@ body {
         font-size: 0.8rem;
     }
 }
+
+.navbar-item.is-tab.is-active {
+  font-size: 1.05rem;
+  color: #000;
+}
+
   .image-gallery {
     display: flex;
     display: -webkit-flex;

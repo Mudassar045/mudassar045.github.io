@@ -60,7 +60,7 @@ class Navigation extends Component<P, S> {
                             <div className="navbar-end">
                                 {
                                     menuLinks.map(link => (
-                                        <Link className={`navbar-item is-tab ${path.includes(link.link) ? 'is-active' : ''}`} key={link.name} to={link.link}>{link.name}</Link>
+                                        <Link className={`navbar-item has-text-weight-bold is-tab ${path.includes(link.link) ? 'is-active' : ''}`} key={link.name} to={link.link}>{link.name}</Link>
                                     ))
                                 }
                             </div>

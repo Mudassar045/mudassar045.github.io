@@ -1,8 +1,9 @@
 import React from 'react'
+
 import Layout from 'layout/Layout'
 
 const Tool = () => {
-    return (
+    return <>
         <Layout>
             <section className="hero is-fullheight is-default">
                 <div className="hero-body">
@@ -10,7 +11,7 @@ const Tool = () => {
                         <div className="columns is-vcentered is-centered" style={{ marginBottom: 180 }}>
                             <div className="column is-half is-narrow content">
                                 <h1 id="contact">What Tools I use</h1>
-                                <p>Here is the list of all the tools I use. If I missed a category, just contact me and I'll make sure to add it.</p>
+                                <p>Here is the list of all the tools I use. If I missed a category, just contact me and I will make sure to add it.</p>
                                 <h3 id="links">Code Tips</h3>
                                 <ul>
                                     <li><a href="https://carbon.now.sh/">Carbon</a></li>
@@ -31,7 +32,7 @@ const Tool = () => {
                 </div>
             </section>
         </Layout>
-    )
+    </>
 }
 
 export default Tool
