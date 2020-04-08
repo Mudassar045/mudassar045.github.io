@@ -1,6 +1,7 @@
 import React from 'react'
+
 import config from 'constants/SiteConfig'
-import Navigation from 'pages/Navigation'
+import Navigation from 'components/Navigation'
 
 type PropsType = {
     children: React.ReactNode
