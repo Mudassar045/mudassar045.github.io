@@ -1,6 +1,7 @@
 import React from 'react'
-import Layout from 'layout/Layout'
 import { Link } from 'react-router-dom'
+
+import Layout from 'layout/Layout'
 
 const Work = () => {
 
@@ -17,6 +18,7 @@ const Work = () => {
                             </p>
                             <h3 id="more">My Works</h3>
                             <ul>
+                                <li><a href="https://github.com/Mudassar045/typescript-cheatsheet" target="_blank" rel="noopener noreferrer">Easy Typescript Cheatsheet</a></li>
                                 <li><Link to="/works/image-gallery">Image Gallery with React Motion</Link></li>
                                 <li><Link to="/works/transliterate">Check out Transliteration Example</Link></li>
                                 <li><Link to="/works/emoji-explorer">Explore Emojis</Link></li>

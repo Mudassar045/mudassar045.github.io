@@ -1,7 +1,9 @@
 import React from 'react'
-import Layout from 'layout/Layout'
+
 import Tooltip from 'react-bootstrap/Tooltip'
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger'
+
+import Layout from 'layout/Layout'
 
 function renderTooltip(props: any) {
 	return (
@@ -20,24 +22,27 @@ const OverlayTriggerExample = () => {
 		<section className="hero">
 			<div className="hero-body">
 				<div className="container">
-					<div className="columns is-vcentered is-centered is-text-centered">
+					<div className="columns is-vcentered is-centered">
 						<div className="column is-9 content">
 							<h1>React OverlayTrigger</h1>
 							<div className="columns">
-								{
-									buttons.map((btn: string, i: number) => <OverlayTrigger
-										key={btn}
-										trigger="click"
-										//@ts-ignore
-										placement={placements[i]}
-										rootClose
-										delay={{ show: 200, hide: 100 }}
-										overlay={renderTooltip}>
-										<div className="column is-4 has-text-centered">
-											<button className="button is-2 is-white has-background-primary is-primary">{btn}</button>
-										</div>
-									</OverlayTrigger>)
-								}
+								<div className="column is-mobile is-size-2 has-text-centered content">
+
+									{
+										buttons.map((btn: string, index: number) => (
+											<OverlayTrigger
+												key={btn}
+												trigger="click"
+												// @ts-ignore
+												placement={placements[index]}
+												rootClose
+												delay={{ show: 200, hide: 100 }}
+												overlay={renderTooltip}>
+												<button className="button is-2 is-white has-background-primary is-primary" style={{ margin: 20 }}>{btn}</button>
+											</OverlayTrigger>
+										))
+									}
+								</div>
 							</div>
 						</div>
 					</div>

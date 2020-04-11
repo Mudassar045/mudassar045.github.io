@@ -6,7 +6,7 @@ import config from 'constants/SiteConfig'
 const Contact = () => {
     return <>
         <Layout>
-            <section className="hero is-fullheight is-default">
+            <section className="hero">
                 <div className="hero-body">
                     <div className="container">
                         <div className="columns is-vcentered is-centered" style={{ marginBottom: 180 }}>
