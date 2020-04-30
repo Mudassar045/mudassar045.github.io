@@ -17,6 +17,7 @@ import ReactBootstrap from 'modules/work/ReactBootstrap/'
 import OverlayTriggerExample from 'modules/work/ReactBootstrap/Overlays/OverlayTrigger'
 
 import Charts from 'modules/work/D3'
+import { ExamplePagePrint } from 'modules/work/Printing/SampleUsingReactPdf'
 
 function App() {
 
@@ -35,6 +36,7 @@ function App() {
                   <Route exact path="/works/react-bootstrap" component={ReactBootstrap}></Route>
                   <Route path="/works/react-bootstrap/overlay-trigger" component={OverlayTriggerExample}></Route>
                   <Route path="/works/d3-learning" component={Charts}></Route>
+                  <Route exact path="/works/printing/sample-1" component={ExamplePagePrint}></Route>
                   <Route path='/contact' component={Contact}></Route>
                   <Route path='/articles' component={Article}></Route>
             </Switch>

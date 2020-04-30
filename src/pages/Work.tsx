@@ -26,6 +26,7 @@ const Work = () => {
                                 <li><Link to="/works/random-string-generator">Random String Generator</Link></li>
                                 <li><Link to="/works/react-bootstrap">Playing With React Bootstrap</Link></li>
                                 <li><Link to="/works/d3-learning">Learning D3</Link></li>
+                                <li><Link to="/works/printing/sample-1">Sample-1: Generating and Downloading Document using React PDF Renderer</Link></li>
                             </ul>
                         </div>
                     </div>
