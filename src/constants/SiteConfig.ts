@@ -1,6 +1,6 @@
 const config: Config = {
     siteTitle: 'Mudassar Ali',
-    siteTitleShort: 'MD',
+    siteTitleShort: 'Mudassar Ali',
     siteTitleAlt: 'Mudassar',
     siteLogo: '/logos/logo-1024.png',
     siteUrl: 'https://www.mudassarali.dev',
@@ -17,7 +17,7 @@ const config: Config = {
     newsletter: 'https://mudassarali.substack.com',
     newsletterEmbed: 'https://mudassarali.substack.com/embed',
     userName: 'Mudassar Ali',
-    userEmail: 'mudassar.ali@cerp.org.pk',
+    userEmail: 'mudassaralics007@gmail.com',
     userTwitter: 'https://twitter.com/voidwebdev',
     userGitHub: 'https://github.com/mudassar045',
     userStackOverflow: 'https://stackoverflow.com/mudassar045',
