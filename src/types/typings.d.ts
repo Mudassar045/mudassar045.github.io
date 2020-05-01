@@ -29,9 +29,14 @@ interface Config {
     themeColor: string
     backgroundColor: string
 }
-  
+
 interface MenuLink {
     name: string
+    link: string
+}
+
+interface WorkLink {
+    title: string
     link: string
 }
 

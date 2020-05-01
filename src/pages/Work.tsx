@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import Layout from 'layout/Layout'
+import { getWorkLinks } from 'constants/WorkLinks'
 
 const Work = () => {
 
@@ -18,15 +19,16 @@ const Work = () => {
                             </p>
                             <h3 id="more">My Works</h3>
                             <ul>
-                                <li><a href="https://github.com/Mudassar045/typescript-cheatsheet" target="_blank" rel="noopener noreferrer">Easy Typescript Cheatsheet</a></li>
-                                <li><Link to="/works/image-gallery">Image Gallery with React Motion</Link></li>
-                                <li><Link to="/works/transliterate">Check out Transliteration Example</Link></li>
-                                <li><Link to="/works/emoji-explorer">Explore Emojis</Link></li>
-                                <li><Link to="/works/character-counter">Character Counter</Link></li>
-                                <li><Link to="/works/random-string-generator">Random String Generator</Link></li>
-                                <li><Link to="/works/react-bootstrap">Playing With React Bootstrap</Link></li>
-                                <li><Link to="/works/d3-learning">Learning D3</Link></li>
-                                <li><Link to="/works/printing/sample-1">Sample-1: Generating and Downloading Document using React PDF Renderer</Link></li>
+                                {
+                                    getWorkLinks("ext").map((work, index) =>
+                                        <li key={"ext" + index}><a href={work.link} target="_blank" rel="noopener noreferrer">{work.title}</a></li>
+                                    )
+                                }
+                                {
+                                    getWorkLinks("app").map((work, index) =>
+                                        <li key={"app" + index}><Link to={`/works/${work.link}`}>{work.title}</Link></li>
+                                    )
+                                }
                             </ul>
                         </div>
                     </div>
