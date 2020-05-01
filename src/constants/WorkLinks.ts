@@ -19,13 +19,19 @@ const AppWorkLinks: WorkLink[] = [
 		title: "Random Strings Generator",
 		link: "random-string-generator"
 	},
+	// {
+	// 	title: "Learning D3",
+	// 	link: "d3-learning"
+	// },
 	{
-		title: "Learning D3",
-		link: "d3-learning"
+		title: "Sample Generating and Downloading document using React PDF Renderer",
+		link: "printing/sample-1",
+		timestamp: "30-04-2020"
 	},
 	{
-		title: "Sample-1: Generating and Downloading Document using React PDF Renderer",
-		link: "printing/sample-1"
+		title: "Working on elixir like cond",
+		link: "cond-construct",
+		timestamp: "01-05-2020"
 	}
 ]
 

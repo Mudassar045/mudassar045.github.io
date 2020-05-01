@@ -26,7 +26,7 @@ const Work = () => {
                                 }
                                 {
                                     getWorkLinks("app").map((work, index) =>
-                                        <li key={"app" + index}><Link to={`/works/${work.link}`}>{work.title}</Link></li>
+                                        <li key={"app" + index}><Link to={`/works/${work.link}`}>{work.timestamp ? `${work.timestamp}: ` : ''}{work.title}</Link></li>
                                     )
                                 }
                             </ul>

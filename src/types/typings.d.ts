@@ -38,6 +38,8 @@ interface MenuLink {
 interface WorkLink {
     title: string
     link: string
+    timestamp?: string
+    description?: string
 }
 
 interface Emoji {

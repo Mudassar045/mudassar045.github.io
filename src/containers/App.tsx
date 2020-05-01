@@ -18,27 +18,29 @@ import OverlayTriggerExample from 'modules/work/ReactBootstrap/Overlays/OverlayT
 
 import Charts from 'modules/work/D3'
 import { ExamplePagePrint } from 'modules/work/Printing/SampleUsingReactPdf'
+import CondConstruct from 'modules/work/CondConstruct'
 
 function App() {
 
       return <Router>
             <Switch>
-                  <Route exact path='/' component={Home}></Route>
-                  <Route path='/me' component={Home}></Route>
-                  <Route path='/uses' component={Tool}></Route>
-                  <Route path='/about' component={About}></Route>
-                  <Route exact path='/works' component={Work}></Route>
-                  <Route path='/works/image-gallery' component={ImageGallery}></Route>
-                  <Route path='/works/transliterate' component={Transliterate}></Route>
-                  <Route path='/works/emoji-explorer' component={EmojiExplorer}></Route>
-                  <Route path='/works/character-counter' component={CharacterCounter}></Route>
-                  <Route path="/works/random-string-generator" component={RandomeStringGenerator}></Route>
-                  <Route exact path="/works/react-bootstrap" component={ReactBootstrap}></Route>
-                  <Route path="/works/react-bootstrap/overlay-trigger" component={OverlayTriggerExample}></Route>
-                  <Route path="/works/d3-learning" component={Charts}></Route>
-                  <Route exact path="/works/printing/sample-1" component={ExamplePagePrint}></Route>
-                  <Route path='/contact' component={Contact}></Route>
-                  <Route path='/articles' component={Article}></Route>
+                  <Route exact path='/' component={Home} />
+                  <Route path='/me' component={Home} />
+                  <Route path='/uses' component={Tool} />
+                  <Route path='/about' component={About} />
+                  <Route exact path='/works' component={Work} />
+                  <Route path='/works/image-gallery' component={ImageGallery} />
+                  <Route path='/works/transliterate' component={Transliterate} />
+                  <Route path='/works/emoji-explorer' component={EmojiExplorer} />
+                  <Route path='/works/character-counter' component={CharacterCounter} />
+                  <Route path="/works/random-string-generator" component={RandomeStringGenerator} />
+                  <Route exact path="/works/react-bootstrap" component={ReactBootstrap} />
+                  <Route path="/works/react-bootstrap/overlay-trigger" component={OverlayTriggerExample} />
+                  <Route path="/works/d3-learning" component={Charts} />
+                  <Route exact path="/works/printing/sample-1" component={ExamplePagePrint} />
+                  <Route exact path="/works/cond-construct" component={CondConstruct} />
+                  <Route path='/contact' component={Contact} />
+                  <Route path='/articles' component={Article} />
             </Switch>
       </Router>
 }
