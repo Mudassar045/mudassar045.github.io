@@ -13,12 +13,9 @@ import Transliterate from 'modules/work/Transliterate'
 import EmojiExplorer from 'modules/work/EmojiExplorer/EmojiExplorer'
 import CharacterCounter from 'modules/work/CharacterCounter'
 import RandomeStringGenerator from 'modules/work/StringsGenerator'
-import ReactBootstrap from 'modules/work/ReactBootstrap/'
-import OverlayTriggerExample from 'modules/work/ReactBootstrap/Overlays/OverlayTrigger'
 
 import Charts from 'modules/work/D3'
 import { ExamplePagePrint } from 'modules/work/Printing/SampleUsingReactPdf'
-import CondConstruct from 'modules/work/CondConstruct'
 
 function App() {
 
@@ -34,11 +31,8 @@ function App() {
                   <Route path='/works/emoji-explorer' component={EmojiExplorer} />
                   <Route path='/works/character-counter' component={CharacterCounter} />
                   <Route path="/works/random-string-generator" component={RandomeStringGenerator} />
-                  <Route exact path="/works/react-bootstrap" component={ReactBootstrap} />
-                  <Route path="/works/react-bootstrap/overlay-trigger" component={OverlayTriggerExample} />
                   <Route path="/works/d3-learning" component={Charts} />
                   <Route exact path="/works/printing/sample-1" component={ExamplePagePrint} />
-                  <Route exact path="/works/cond-construct" component={CondConstruct} />
                   <Route path='/contact' component={Contact} />
                   <Route path='/articles' component={Article} />
             </Switch>
