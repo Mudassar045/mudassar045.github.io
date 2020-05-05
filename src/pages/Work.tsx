@@ -12,18 +12,21 @@ const Work = () => {
                 <div className="container">
                     <div className="columns is-vcentered is-centered">
                         <div className="column is-half is-narrow content">
-                            <h1 id="about-mudassar">What I really DO</h1>
+                            <h1 id="about-mudassar">My Work</h1>
                             <p>
                                 Most of the time I only do programming, learning about new technologies and explore something new every day.
                                 Below are some works that I practiced and made demo of them.
                             </p>
-                            <h3 id="more">My Works</h3>
+                            <h3>Open Source</h3>
                             <ul>
                                 {
                                     getWorkLinks("ext").map((work, index) =>
                                         <li key={"ext" + index}><a href={work.link} target="_blank" rel="noopener noreferrer">{work.title}</a></li>
                                     )
                                 }
+                            </ul>
+                            <h3>Practice</h3>
+                            <ul>
                                 {
                                     getWorkLinks("app").map((work, index) =>
                                         <li key={"app" + index}><Link to={`/works/${work.link}`}>{work.timestamp ? `${work.timestamp}: ` : ''}{work.title}</Link></li>

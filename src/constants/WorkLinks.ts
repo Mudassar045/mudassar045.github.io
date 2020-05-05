@@ -24,14 +24,9 @@ const AppWorkLinks: WorkLink[] = [
 	// 	link: "d3-learning"
 	// },
 	{
-		title: "Sample Generating and Downloading document using React PDF Renderer",
+		title: "Sample pdf generating React PDF Renderer",
 		link: "printing/sample-1",
 		timestamp: "30-04-2020"
-	},
-	{
-		title: "Working on elixir like cond",
-		link: "cond-construct",
-		timestamp: "01-05-2020"
 	}
 ]
 
@@ -39,6 +34,10 @@ const ExternalWorkLinks: WorkLink[] = [
 	{
 		title: "Easy Typescript Learning Cheatsheet",
 		link: "https://github.com/Mudassar045/typescript-cheatsheet"
+	},
+	{
+		title: "Cond Construct, Inspired by Elixir's cond",
+		link: "https://github.com/Mudassar045/cond-construct#cond-construct",
 	}
 ]
 
