@@ -23,7 +23,7 @@ const config: Config = {
     userStackOverflow: 'https://stackoverflow.com/mudassar045',
     userLinkedIn: 'https://www.linkedin.com/in/mudassar-ali-045/',
     userFacebook: 'https://web.facebook.com/mudassar045',
-    userInstagram: 'https://web.instagram/icapsaicin',
+    userInstagram: 'https://www.instagram.com/icapsaicin',
     blog: 'https://voidweb.dev',
     menuLinks: [
       {
