@@ -15,7 +15,7 @@ const About = () => {
                                 <h1 id="about-mudassar">About {config.userName}</h1>
                                 <p>I’m a full-stack Software Developer, currently working at <a href="https://labs.cerp.org.pk" rel="noopener noreferrer" target="_blank">CERP Pakistan</a>. I started, my professional journey back in July, 2019.
                                    Currently working on <a href='https://mischool.pk' rel="noopener noreferrer" target="_blank"> MISchool</a>. Working as Front-end, I add new features and improve UI/UX to reshape the Progressive Web Apps experience. On the backend,
-                                   implementing logic with <strong>Elixir</strong> which is out of box language for distributive systems.
+                                   implementing logic with <strong>Elixir</strong> which is out of box language for functional programming.
                                    I am also an avid participant in several local and international open source projects on <a href={config.userGitHub} rel="noopener noreferrer" target="_blank">GitHub</a>.</p>
                                 <h3>More</h3>
                                 <ul>
