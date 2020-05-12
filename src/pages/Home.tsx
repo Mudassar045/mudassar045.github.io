@@ -19,9 +19,8 @@ const Home = () => {
                             <div className="column is-two-thirds is-centered has-nice-link">
                                 <div>
                                     <img id="profile-pic" src={Avatar} width="160" height="160" alt="avatar" />
-                                    <h1 className="title is-2">{SiteConfig.userName}</h1>
-                                    <h2 className="subtitle is-4">{SiteConfig.whoAm}</h2>
-                                    <p>{SiteConfig.homeDescription}</p>
+                                    <h1 className="title is-2">Hi, I'm {SiteConfig.siteTitleAlt}</h1>
+                                    <p className="is-size-5">{SiteConfig.homeDescription}</p>
                                 </div>
                                 <br />
                                 <p className="has-text-centered">

@@ -10,7 +10,7 @@ const config: Config = {
     dateFormat: '',
     siteDescription: 'Mudassar Ali is a full-stack Software Developer currently working with JavaScript and Elixir, changing imaginations into reality through code. Most important, Love OSS',
     whoAm: 'A full-stack Software Developer & OSS Junkie',
-    homeDescription: 'Love to serve the community with innovative thinking, ideas and UI/UX rich tools',
+    homeDescription: 'I design and build software with and for the people and love to serve the community with innovative thinking, ideas and UI/UX rich tools',
     siteRss: '/rss.xml',
     googleAnalyticsID: '',
     postDefaultCategoryID: 'Tech',
