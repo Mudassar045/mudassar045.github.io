@@ -20,7 +20,7 @@ const config: Config = {
     userEmail: 'mudassaralics007@gmail.com',
     userTwitter: 'https://twitter.com/voidwebdev',
     userGitHub: 'https://github.com/mudassar045',
-    userStackOverflow: 'https://stackoverflow.com/mudassar045',
+    userStackOverflow: 'https://stackoverflow.com/users/8108770/mudassar045',
     userLinkedIn: 'https://www.linkedin.com/in/mudassar-ali-045/',
     userFacebook: 'https://web.facebook.com/mudassar045',
     userInstagram: 'https://www.instagram.com/icapsaicin',

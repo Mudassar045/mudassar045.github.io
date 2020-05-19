@@ -13,5 +13,8 @@
 	"editor.formatOnSave": true,
 	"[typescriptreact]": {
 		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"files.exclude": {
+		"node_modules": true
 	}
 }

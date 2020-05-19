@@ -25,12 +25,12 @@ const About = () => {
                                 </ul>
                                 <h3>Find me</h3>
                                 <ul>
-                                    <li><a href={config.userGitHub}>GitHub</a></li>
-                                    <li><a href={config.userStackOverflow}>StackOverflow</a></li>
-                                    <li><a href={config.userLinkedIn}>LinkedIn</a></li>
-                                    <li><a href={config.userTwitter}>Twitter</a></li>
-                                    <li><a href={config.userFacebook}>Facebook</a></li>
-                                    <li><a href={config.userInstagram}>Instagram</a></li>
+                                    <li><a href={config.userGitHub} rel="noopener noreferrer" target="_blank">GitHub</a></li>
+                                    <li><a href={config.userStackOverflow} rel="noopener noreferrer" target="_blank">StackOverflow</a></li>
+                                    <li><a href={config.userLinkedIn} rel="noopener noreferrer" target="_blank">LinkedIn</a></li>
+                                    <li><a href={config.userTwitter} rel="noopener noreferrer" target="_blank">Twitter</a></li>
+                                    <li><a href={config.userFacebook} rel="noopener noreferrer" target="_blank">Facebook</a></li>
+                                    <li><a href={config.userInstagram} rel="noopener noreferrer" target="_blank">Instagram</a></li>
                                     <li><Link to="/contact">Email</Link></li>
                                 </ul>
                             </div>
