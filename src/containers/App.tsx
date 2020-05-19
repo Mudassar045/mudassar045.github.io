@@ -16,6 +16,7 @@ import RandomeStringGenerator from 'modules/work/StringsGenerator'
 
 import Charts from 'modules/work/D3'
 import { ExamplePagePrint } from 'modules/work/Printing/SampleUsingReactPdf'
+import SMSTesting from 'modules/work/SMSTesting'
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
                   <Route path="/works/random-string-generator" component={RandomeStringGenerator} />
                   <Route path="/works/d3-learning" component={Charts} />
                   <Route exact path="/works/printing/sample-1" component={ExamplePagePrint} />
+                  <Route path="/works/sms-api-testing" component={SMSTesting} />
                   <Route path='/contact' component={Contact} />
                   <Route path='/articles' component={Article} />
             </Switch>
