@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.a85b515a.chunk.css",
-    "main.js": "/static/js/main.3bdcf0e8.chunk.js",
-    "main.js.map": "/static/js/main.3bdcf0e8.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.1b85fb3b.js",
-    "runtime-main.js.map": "/static/js/runtime-main.1b85fb3b.js.map",
-    "static/js/2.021e5161.chunk.js": "/static/js/2.021e5161.chunk.js",
-    "static/js/2.021e5161.chunk.js.map": "/static/js/2.021e5161.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.3f4f6bf448844970b80b05c946ca8344.js": "/precache-manifest.3f4f6bf448844970b80b05c946ca8344.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.a85b515a.chunk.css.map": "/static/css/main.a85b515a.chunk.css.map",
-    "static/js/2.021e5161.chunk.js.LICENSE.txt": "/static/js/2.021e5161.chunk.js.LICENSE.txt",
-    "static/media/cool-cat.png": "/static/media/cool-cat.62b7f00c.png",
-    "static/media/mudassar-ali.jpg": "/static/media/mudassar-ali.14155600.jpg"
+    "main.css": "/blog/static/css/main.a85b515a.chunk.css",
+    "main.js": "/blog/static/js/main.a4033386.chunk.js",
+    "main.js.map": "/blog/static/js/main.a4033386.chunk.js.map",
+    "runtime-main.js": "/blog/static/js/runtime-main.f094a454.js",
+    "runtime-main.js.map": "/blog/static/js/runtime-main.f094a454.js.map",
+    "static/js/2.5e09d033.chunk.js": "/blog/static/js/2.5e09d033.chunk.js",
+    "static/js/2.5e09d033.chunk.js.map": "/blog/static/js/2.5e09d033.chunk.js.map",
+    "index.html": "/blog/index.html",
+    "precache-manifest.862efc196f56136c4cc2d849765b34df.js": "/blog/precache-manifest.862efc196f56136c4cc2d849765b34df.js",
+    "service-worker.js": "/blog/service-worker.js",
+    "static/css/main.a85b515a.chunk.css.map": "/blog/static/css/main.a85b515a.chunk.css.map",
+    "static/js/2.5e09d033.chunk.js.LICENSE.txt": "/blog/static/js/2.5e09d033.chunk.js.LICENSE.txt",
+    "static/media/cool-cat.png": "/blog/static/media/cool-cat.62b7f00c.png",
+    "static/media/mudassar-ali.jpg": "/blog/static/media/mudassar-ali.14155600.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1b85fb3b.js",
-    "static/js/2.021e5161.chunk.js",
+    "static/js/runtime-main.f094a454.js",
+    "static/js/2.5e09d033.chunk.js",
     "static/css/main.a85b515a.chunk.css",
-    "static/js/main.3bdcf0e8.chunk.js"
+    "static/js/main.a4033386.chunk.js"
   ]
 }
