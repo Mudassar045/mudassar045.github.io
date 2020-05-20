@@ -19,10 +19,6 @@ const AppWorkLinks: WorkLink[] = [
 		title: "Random Strings Generator",
 		link: "random-string-generator"
 	},
-	// {
-	// 	title: "Learning D3",
-	// 	link: "d3-learning"
-	// },
 	{
 		title: "Sample pdf generating React PDF Renderer",
 		link: "printing/sample-1",

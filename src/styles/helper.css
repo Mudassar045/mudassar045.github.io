@@ -22,7 +22,6 @@ body {
 }
 
 .navbar-item.is-tab.is-active {
-  font-size: 1.05rem;
   color: #000;
 }
 
@@ -262,4 +261,11 @@ input[type=range]:focus::-ms-fill-upper {
 
 #projects p {
     font-size: 16px
+}
+
+@media screen and (min-width: 1088px) {
+  .navbar {
+      margin-left: 2vw;
+      margin-right: 2vw;
+  }
 }

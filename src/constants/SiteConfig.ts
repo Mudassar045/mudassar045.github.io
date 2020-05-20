@@ -17,7 +17,7 @@ const config: Config = {
     newsletter: 'https://mudassarali.substack.com',
     newsletterEmbed: 'https://mudassarali.substack.com/embed',
     userName: 'Mudassar Ali',
-    userEmail: 'mudassaralics007@gmail.com',
+    userEmail: 'mudassarali.vwd@gmail.com',
     userTwitter: 'https://twitter.com/voidwebdev',
     userGitHub: 'https://github.com/mudassar045',
     userStackOverflow: 'https://stackoverflow.com/users/8108770/mudassar045',
@@ -39,12 +39,16 @@ const config: Config = {
         link: '/works',
       },
       {
+        name: 'Projects',
+        link: '/projects'
+      },
+      {
         name: 'Contact',
         link: '/contact',
       },
       {
-        name: 'Articles',
-        link: '/articles',
+        name: 'Blog',
+        link: '/blog',
       },
     ],
     themeColor: '#3F80FF', // Used for setting manifest and progress theme colors.

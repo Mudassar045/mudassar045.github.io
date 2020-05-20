@@ -1,12 +1,8 @@
 {
-  "homepage": "https://mudassar045.github.io/blog",
+  "homepage": "https://mudassar045.github.io/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.28",
-    "@fortawesome/free-brands-svg-icons": "^5.13.0",
-    "@fortawesome/free-solid-svg-icons": "^5.13.0",
-    "@fortawesome/react-fontawesome": "^0.1.9",
     "@octokit/rest": "^17.9.2",
     "@react-pdf/renderer": "^1.6.8",
     "@sindresorhus/transliterate": "^0.1.0",
