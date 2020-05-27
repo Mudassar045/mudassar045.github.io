@@ -13,14 +13,12 @@ const About = () => {
                         <div className="columns is-vcentered is-centered">
                             <div className="column is-half content">
                                 <h1 id="about-mudassar">About Me</h1>
-                                <p>I’m a full-stack Software Developer, currently working at <a href="https://labs.cerp.org.pk" rel="noopener noreferrer" target="_blank">CERP Pakistan</a>. I started, my professional journey back in July, 2019.
-                                   While, Working on the front-end, I add new features and improve UI/UX to reshape the Progressive Web Apps experience. On the backend,
-                                   implementing logics with <strong>Elixir</strong> (functional programming language).
-                                   I am also an avid participant in several local and international open source projects on <a href={config.userGitHub} rel="noopener noreferrer" target="_blank">GitHub</a>.</p>
+                                <p>I’m a full-stack Software Developer, currently working at <a href="https://labs.cerp.org.pk" rel="noopener noreferrer" target="_blank">CERP Pakistan</a>.
+                                   While, Working on the front-end, I add new features and improve UI/UX to reshape the Progressive Web Apps experience. I have keen interest in design and user experience.
+                                   On the backend, create solutions with <strong>Elixir</strong>. I am also an avid participant in several local and international
+                                   open source projects on <a href={config.userGitHub} rel="noopener noreferrer" target="_blank">GitHub</a>.</p>
                                 <h3>More</h3>
                                 <ul>
-                                    { //<li><a href="https://blog.mudassarali.dev/articles/about-me">About Me Blog Post</a></li>
-                                    }
                                     <li><Link to="/uses">What tools I use</Link></li>
                                 </ul>
                                 <h3>Find me</h3>

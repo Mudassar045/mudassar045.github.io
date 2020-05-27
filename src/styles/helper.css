@@ -241,17 +241,16 @@ input[type=range]:focus::-ms-fill-upper {
     opacity: 1
 }
 
-#cool-cat-btn {
+.nav-avatar-btn {
     transition: transform .3s ease-in-out
 }
 
-#cool-cat-btn:hover {
+.nav-avatar-btn:hover {
     transform: scale(1.8)
 }
 
-#cool-cat-icon {
-    margin-top: -80px;
-    margin-bottom: 20px
+.navbar-icon {
+  border-radius: 50%;
 }
 
 #projects {
@@ -268,4 +267,9 @@ input[type=range]:focus::-ms-fill-upper {
       margin-left: 2vw;
       margin-right: 2vw;
   }
+}
+
+.media+.media {
+  border-top: none;
+  margin-top: 20px;
 }
