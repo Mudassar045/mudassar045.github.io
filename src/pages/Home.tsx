@@ -23,7 +23,7 @@ const Home = () => {
                                 <div className="media">
                                     <div className="media-left">
                                         <a className="image is-64x64 is-marginless no-underline" href="https://labs.cerp.org.pk/">
-                                            <img className="is-rounded" src="https://labs.cerp.org.pk/public/mischool.ico" alt="avatar" />
+                                            <img className="is-rounded" src="images/mischool.ico" alt="avatar" />
                                         </a>
                                     </div>
                                     <div className="team-card">
