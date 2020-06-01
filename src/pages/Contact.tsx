@@ -10,7 +10,7 @@ const Contact = () => {
                 <div className="hero-body">
                     <div className="container">
                         <div className="columns is-vcentered is-centered" style={{ marginBottom: 180 }}>
-                            <div className="column is-half is-narrow content">
+                            <div className="column is-three-fifths is-narrow content">
                                 <h1 id="contact">Contact</h1>
                                 <p>I value my time, so make it worth, and <a href="https://www.google.com/search?q=succinct+emails">keep it succinct</a>.</p>
                                 <hr />

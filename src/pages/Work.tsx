@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 
 import Layout from 'layout/Layout'
 import { getWorkLinks } from 'constants/WorkLinks'
+import ExternLink from 'components/Link'
 
 const Work = () => {
 
@@ -11,7 +12,7 @@ const Work = () => {
             <div className="hero-body">
                 <div className="container">
                     <div className="columns is-vcentered is-centered">
-                        <div className="column is-half is-narrow content">
+                        <div className="column is-three-fifths is-narrow content">
                             <h1 id="about-mudassar">My Work</h1>
                             <p>
                                 Most of the time I only do programming, learning about new technologies and explore something new every day.
@@ -21,7 +22,7 @@ const Work = () => {
                             <ul>
                                 {
                                     getWorkLinks("ext").map((work, index) =>
-                                        <li key={"ext" + index}><a href={work.link} target="_blank" rel="noopener noreferrer">{work.title}</a></li>
+                                        <li key={"ext" + index}><ExternLink href={work.link} title={work.title} /></li>
                                     )
                                 }
                             </ul>

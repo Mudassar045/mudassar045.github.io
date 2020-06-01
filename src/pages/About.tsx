@@ -11,7 +11,7 @@ const About = () => {
                 <div className="hero-body">
                     <div className="container">
                         <div className="columns is-vcentered is-centered">
-                            <div className="column is-half content">
+                            <div className="column is-three-fifths content">
                                 <h1 id="about-mudassar">About Me</h1>
                                 <p>I’m a full-stack Software Developer, currently working at <a href="https://labs.cerp.org.pk" rel="noopener noreferrer" target="_blank">CERP Pakistan</a>.
                                    While, Working on the front-end, I add new features and improve UI/UX to reshape the Progressive Web Apps experience. I have keen interest in design and user experience.
