@@ -34,11 +34,15 @@ const AppWorkLinks: WorkLink[] = [
 const ExternalWorkLinks: WorkLink[] = [
 	{
 		title: "Easy Typescript Learning Cheatsheet",
-		link: "https://github.com/Mudassar045/typescript-cheatsheet"
+		link: "github.com/Mudassar045/typescript-cheatsheet"
 	},
 	{
 		title: "Cond Construct, Inspired by Elixir's cond",
-		link: "https://github.com/Mudassar045/cond-construct#cond-construct",
+		link: "github.com/Mudassar045/cond-construct#cond-construct",
+	},
+	{
+		title: "EcmaScript 6 Utilities",
+		link: "github.com/Mudassar045/ES6-Utils"
 	}
 ]
 

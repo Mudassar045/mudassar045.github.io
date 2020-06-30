@@ -46,10 +46,10 @@ const config: Config = {
         name: 'Contact',
         link: '/contact',
       },
-      {
-        name: 'Blog',
-        link: '/blog',
-      },
+      // {
+      //   name: 'Blog',
+      //   link: '/blog',
+      // },
     ],
     themeColor: '#3F80FF', // Used for setting manifest and progress theme colors.
     backgroundColor: '#ffffff',

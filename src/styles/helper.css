@@ -273,3 +273,29 @@ input[type=range]:focus::-ms-fill-upper {
   border-top: none;
   margin-top: 20px;
 }
+
+.image .is-256x256 {
+	height: 180px;
+  width: 200px;
+}
+
+.tag.is-small {
+  margin: 0.175rem
+}
+
+.technology .tag {
+  color: #000;
+  background-color: #ffdd57;
+}
+
+.technology .tag.status {
+  color: white;
+  background-color: #1bb4bb;
+}
+
+@media screen and (max-width: 475px){
+  .image .is-256x256 {
+    height: 150px;
+    width: 150px;
+  }
+}

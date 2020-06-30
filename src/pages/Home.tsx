@@ -38,16 +38,16 @@ const Home = () => {
                                 <div className="media">
                                     <div className="media-left">
                                         <a className="image is-64x64 is-marginless no-underline" href={SiteConfig.userGitHub}>
-                                            <img className="is-rounded" src="images/oss-heart.svg" alt="oss" />
+                                            < img className="is-rounded" src="images/oss-heart.svg" alt="oss" />
                                         </a>
                                     </div>
                                     <div className="media-content">
                                         <p className="title is-5" style={{ marginBottom: "1.25rem" }}>Open-source</p>
-                                        <p>Projects I've contributed to include&nbsp;
-                                        <ExternLink href="https://github.com/googlechromelabs" title="Google Chrome Labs" />,&nbsp;
-                                        <ExternLink href="https://gridsome.com" title="Gridsome.org" />,&nbsp;
-                                        <ExternLink href="https://github.com/microsoft/vscode" title="VS-Code" />,&nbsp;
-                                        <ExternLink href="https://github.com/react-pdf" title="React PDF" />. You can find more on&nbsp;
+                                        <p>Projects I've contributed to include <ExternLink href="github.com/taniarascia/takenote" title="Takenote.dev" />,&nbsp;
+                                        <ExternLink href="gridsome.com" title="Gridsome.org" />,&nbsp;
+                                        <ExternLink href="github.com/microsoft/vscode" title="VS-Code" />,&nbsp;
+                                        <ExternLink href="github.com/react-pdf" title="ReactPDF" /> and <ExternLink href="github.com/googlechromelabs" title="Google Chrome Labs" />.&nbsp;
+                                        You can find more on&nbsp;
                                         <ExternLink href={SiteConfig.userGitHub} title="GitHub" />.
                                     </p>
                                     </div>

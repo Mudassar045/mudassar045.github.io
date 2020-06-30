@@ -1,6 +1,8 @@
 import React from 'react'
-
 import Layout from 'layout/Layout'
+
+import projects from 'constants/projects.json'
+import ProjectCard from 'components/ProjectCard'
 
 const Project = () => {
 	return (
@@ -8,9 +10,15 @@ const Project = () => {
 			<section className="hero">
 				<div className="hero-body">
 					<div className="container">
-						<div className="columns is-vcentered is-centered">
-							<div className="column is-three-fifths is-narrow content">
-								<h1>Coming soon...</h1>
+						<div className="columns">
+							<div className="column is-two-third content">
+								<h1>Projects</h1>
+								<p>Here are some project on which I had worked and now currently working</p>
+								<div className="columns is-multiline">
+									{
+										projects.map(project => (<ProjectCard key={project.id} project={project} />))
+									}
+								</div>
 							</div>
 						</div>
 					</div>

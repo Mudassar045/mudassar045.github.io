@@ -11,7 +11,7 @@ const Blog = () => {
                     <div className="container">
                         <div className="columns is-vcentered is-centered">
                             <div className="column is-three-fifths is-narrow content">
-                                <h1>Coming soon...</h1>
+                                <h1>Setting up stuff...</h1>
                             </div>
                         </div>
                     </div>
