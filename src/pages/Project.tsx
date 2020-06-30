@@ -10,10 +10,10 @@ const Project = () => {
 			<section className="hero">
 				<div className="hero-body">
 					<div className="container">
-						<div className="columns">
+						<div className="columns is-vcentered is-centered">
 							<div className="column is-two-third content">
 								<h1>Projects</h1>
-								<p>Here are some project on which I had worked and now currently working</p>
+								<p>Here are some project on which I had work and now currently working</p>
 								<div className="columns is-multiline">
 									{
 										projects.map(project => (<ProjectCard key={project.id} project={project} />))

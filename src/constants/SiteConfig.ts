@@ -18,13 +18,13 @@ const config: Config = {
     newsletterEmbed: 'https://mudassarali.substack.com/embed',
     userName: 'Mudassar Ali',
     userEmail: 'mudassarali.vwd@gmail.com',
-    userTwitter: 'https://twitter.com/voidwebdev',
+    userTwitter: 'https://twitter.com/mudssrali',
     userGitHub: 'https://github.com/mudassar045',
     userStackOverflow: 'https://stackoverflow.com/users/8108770/mudassar045',
     userLinkedIn: 'https://www.linkedin.com/in/mudassar-ali-045/',
     userFacebook: 'https://web.facebook.com/mudassar045',
-    userInstagram: 'https://www.instagram.com/icapsaicin',
-    blog: 'https://voidweb.dev',
+    userInstagram: 'https://www.instagram.com/_mudassarali_',
+    blog: 'https://mudassarali.dev/blog',
     menuLinks: [
       {
         name: 'Home',
