@@ -18,7 +18,7 @@ const Contact = () => {
                                     <a href={`mailto:${config.userEmail}`}>{config.userEmail}</a>
                                 </p>
                                 <hr />
-                                <p>Please no support questions, job offers, questionnaires, etc.</p>
+                                <p>Please no support questions, questionnaires, etc.</p>
                                 <p>If the answer to your question could be interesting to others, consider asking in my <a href={`${config.userGitHub}/ama`}>AMA</a> instead.</p>
                             </div>
                         </div>

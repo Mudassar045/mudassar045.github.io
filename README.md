@@ -1,3 +1,10 @@
-# My personal blog and Developer portfolio
+# mudssrali.github.io
 
-It's built with React + TypeScript (❤️ this combo) with *bulma.css*
+My personal website and blog
+
+Built with
+
+- Reactjs
+- Bulma CSS
+
+You can find on my [development account](https://github.com/mudassar045)
