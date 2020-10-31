@@ -24,15 +24,15 @@ const Home = () => {
                                 <br />
                                 <div className="media">
                                     <div className="media-left">
-                                        <a className="image is-64x64 is-marginless no-underline" href="https://labs.cerp.org.pk/">
+                                        <a className="image is-64x64 is-marginless no-underline" href="https://labs.cerp.org.pk">
                                             <img className="is-rounded" src="images/mischool.ico" alt="avatar" />
                                         </a>
                                     </div>
                                     <div className="media-content">
                                         <p className="title is-5" style={{ marginBottom: "1.25rem" }}>Current Projects</p>
                                         <p>I work on <ExternLink href="mischool.pk" title={"MISchool"} /> and &nbsp;
-                                        <ExternLink href="ilmexchange.com" title="IlmExchange" />, trying to make sustainable tools for Education. Also planning and designing various other&nbsp;
-                                        <ExternLink href="lynxsolutionz.com" title="tools" /> to make this world to grow with technology.</p>
+                                        <ExternLink href="ilmexchange.com" title="IlmExchange" />, trying to make sustainable tools for Education at <a href="https://labs.cerp.org.pk"> CERP Labs</a>. Also planning and designing various other&nbsp;
+                                        <ExternLink href="github.com/mudassar045" title="tools" /> to make this world to grow with technology.</p>
                                     </div>
                                 </div>
                                 <div className="media">

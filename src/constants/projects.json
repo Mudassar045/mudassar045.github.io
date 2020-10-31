@@ -35,10 +35,10 @@
 	},
 	{
 		"id": 3,
-		"title": "USChessHub",
-		"url": "https://www.uschesshub.com",
+		"title": "NAChessHub",
+		"url": "https://www.nachesshub.com",
 		"image": "uschesshub.jpg",
-		"description": "US Chess Hub is a web site dedicated for chess events publishing and registration in the United States",
+		"description": "NA Chess Hub is a web site dedicated for chess events publishing and registration in the United States",
 		"tags": [
 			"web"
 		],
