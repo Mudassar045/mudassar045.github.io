@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@feedback-fish/react": "^1.2.1",
     "@octokit/rest": "^17.9.2",
     "@react-pdf/renderer": "^1.6.8",
     "@sindresorhus/transliterate": "^0.1.0",
