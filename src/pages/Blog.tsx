@@ -1,57 +1,57 @@
 import React from 'react'
-import { FeedbackFish } from '@feedback-fish/react'
+// import { FeedbackFish } from '@feedback-fish/react'
 
 import Layout from 'layout/Layout'
 
 const Blog = () => {
 
-    // const [submit, setSubmit] = useState(false)
-    // const [success, setSuccess] = useState(false)
-    // const [failure, setFailure] = useState(false)
+    const [submit, setSubmit] = useState(false)
+    const [success, setSuccess] = useState(false)
+    const [failure, setFailure] = useState(false)
 
-    // const [feedbackText, setFeedbackText] = useState('')
+    const [feedbackText, setFeedbackText] = useState('')
 
-    // const [category, setCategory] = useState('idea')
+    const [category, setCategory] = useState('idea')
 
-    // const handleFormSubmit = async () => {
+    const handleFormSubmit = async () => {
 
-    //     if (feedbackText.trim().length === 0) {
-    //         window.alert("Please say something, Thanks")
-    //     }
+        if (feedbackText.trim().length === 0) {
+            window.alert("Please say something, Thanks")
+        }
 
-    //     setSubmit(true)
+        setSubmit(true)
 
-    //     await fetch('https://api.feedback.fish/feedback', {
-    //         method: 'POST',
-    //         headers: {
-    //             'Content-Type': 'application/json'
-    //         },
-    //         body: JSON.stringify({
-    //             projectId: "451ebcb4c17dcc",
-    //             text: feedbackText,
-    //             category: category,
-    //             userId: 'randomUser@feedback.fish',
-    //             metadata: {},
-    //         })
-    //     }).then(resp => resp.json())
-    //         .then(resp => {
-    //             console.log(resp);
-    //             setSuccess(true)
-    //             setSubmit(false)
-    //             setFeedbackText('')
-    //             setTimeout(() => {
-    //                 setSuccess(false)
-    //             }, 3000);
-    //         }, error => {
-    //             console.log(error)
-    //             setSubmit(false)
-    //             setFailure(true)
-    //             setTimeout(() => {
-    //                 setFailure(true)
-    //             }, 3000);
-    //         })
+        await fetch('https://api.feedback.fish/feedback', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                projectId: "451ebcb4c17dcc",
+                text: feedbackText,
+                category: category,
+                userId: 'randomUser@feedback.fish',
+                metadata: {},
+            })
+        }).then(resp => resp.json())
+            .then(resp => {
+                console.log(resp);
+                setSuccess(true)
+                setSubmit(false)
+                setFeedbackText('')
+                setTimeout(() => {
+                    setSuccess(false)
+                }, 3000);
+            }, error => {
+                console.log(error)
+                setSubmit(false)
+                setFailure(true)
+                setTimeout(() => {
+                    setFailure(true)
+                }, 3000);
+            })
 
-    // }
+    }
 
     return (
         <Layout>
@@ -69,8 +69,8 @@ const Blog = () => {
                                 {
 
                                 }
-                                {/* <h2>Would love to hear from you!</h2> */}
-                                {/* <p>*Powered by <a href="https://feedback.fish" >feedback.fish</a></p>
+                                <h2>Would love to hear from you!</h2>
+                                <p>*Powered by <a href="https://feedback.fish" >feedback.fish</a></p>
                                 <textarea
                                     className="textarea"
                                     style={{ marginTop: 10, marginBottom: 10 }}
@@ -100,10 +100,10 @@ const Blog = () => {
                                     {
                                         submit ? 'Please hold on....' : success ? 'Thank you!' : failure ? 'Ahhh, please try again!' : ''
                                     }
-                                </p> */}
-                                <FeedbackFish projectId="451ebcb4c17dcc">
+                                </p>
+                                {/* <FeedbackFish projectId="451ebcb4c17dcc">
                                     <NavButton><span>Send feedback</span></NavButton>
-                                </FeedbackFish>
+                                </FeedbackFish> */}
                             </div>
                         </div>
                     </div>
