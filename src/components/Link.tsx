@@ -6,7 +6,9 @@ type PropsType = {
 }
 
 const ExternLink = ({ href, title }: PropsType) => (
-	<a href={`https://${href}`} target="_blank" rel="noopener noreferrer">{title}</a>
+	<a href={`https://${href}`} target="_blank" rel="noopener noreferrer">
+		{title}
+	</a>
 )
 
 export default ExternLink

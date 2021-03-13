@@ -2,4 +2,6 @@ build
 
 *.html
 
+package-lock.json
+
 /src/styles/main.css

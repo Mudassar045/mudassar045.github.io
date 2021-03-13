@@ -15,9 +15,9 @@ const Project = () => {
 								<h1>Projects</h1>
 								<p>Here are some project on which I had work and now currently working</p>
 								<div className="columns is-multiline">
-									{
-										projects.map(project => (<ProjectCard key={project.id} project={project} />))
-									}
+									{projects.map(project => (
+										<ProjectCard key={project.id} project={project} />
+									))}
 								</div>
 							</div>
 						</div>

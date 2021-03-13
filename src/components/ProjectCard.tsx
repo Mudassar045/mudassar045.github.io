@@ -17,7 +17,6 @@ type Project = {
 }
 
 const ProjectCard = ({ project }: PropsType) => {
-
 	return (
 		<SpringContainer styles="column is-mobile is-half-tablet is-one-third-desktop">
 			<a href={project.url}>
@@ -27,13 +26,19 @@ const ProjectCard = ({ project }: PropsType) => {
 					</figure>
 					<h4 className="title is-size-3">
 						<span style={{ paddingRight: 4 }}>{project.title}</span>
-						{
-							project.tags
-								.map(tag => <span key={tag} className="tag is-small">{tag}</span>)
-						}
+						{project.tags.map(tag => (
+							<span key={tag} className="tag is-small">
+								{tag}
+							</span>
+						))}
 					</h4>
 					<p className="subtitle is-6">{project.description}</p>
-					<p className="technology">{project.tech.map(tech => <span key={tech} className="tag is-small">{tech}</span>)}
+					<p className="technology">
+						{project.tech.map(tech => (
+							<span key={tech} className="tag is-small">
+								{tech}
+							</span>
+						))}
 						<span className="tag status is-small">{project.status}</span>
 					</p>
 				</div>

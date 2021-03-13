@@ -5,15 +5,8 @@
 		"url": "https://mischool.pk",
 		"image": "mischool.ico",
 		"description": "MISchool is a management software system for schools. MISchool enables school to collect, organize, and store records giving your school full control of all academic, finance, wellbeing, and administrative information.",
-		"tags": [
-			"web",
-			"PWA"
-		],
-		"tech": [
-			"JS",
-			"ReactJS",
-			"Elixir"
-		],
+		"tags": ["web", "PWA"],
+		"tech": ["JS", "ReactJS", "Elixir"],
 		"status": "continue"
 	},
 	{
@@ -22,15 +15,8 @@
 		"url": "https://ilmexchange.com",
 		"image": "ilmx.png",
 		"description": "Ilm Exchange is a digital education platform that connects schools, teachers and students with affordable resources to enable quality teaching and learning across Pakistan.",
-		"tags": [
-			"web",
-			"PWA"
-		],
-		"tech": [
-			"JS",
-			"ReactJS",
-			"Elixir"
-		],
+		"tags": ["web", "PWA"],
+		"tech": ["JS", "ReactJS", "Elixir"],
 		"status": "continue"
 	},
 	{
@@ -39,14 +25,8 @@
 		"url": "https://www.nachesshub.com",
 		"image": "uschesshub.jpg",
 		"description": "NA Chess Hub is a web site dedicated for chess events publishing and registration in the United States",
-		"tags": [
-			"web"
-		],
-		"tech": [
-			"JS",
-			"C#",
-			".NET Core"
-		],
+		"tags": ["web"],
+		"tech": ["JS", "C#", ".NET Core"],
 		"status": "completed"
 	},
 	{
@@ -55,14 +35,8 @@
 		"url": "#/projects",
 		"image": "thefactsbook.png",
 		"description": "A collection of best, authentic, amazing, interesting, unbelievable, strange, weird and popular facts",
-		"tags": [
-			"web"
-		],
-		"tech": [
-			"JS",
-			"PHP",
-			"Laravel"
-		],
+		"tags": ["web"],
+		"tech": ["JS", "PHP", "Laravel"],
 		"status": "completed"
 	}
 ]
