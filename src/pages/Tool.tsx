@@ -45,7 +45,7 @@ const Tool = () => {
 											<a href="https://code.visualstudio.com/">VS Code Editor</a>
 										</li>
 										<li>
-											<a href="https://github.com/mudassar045">Github</a>
+											<a href="https://github.com/mudssrali">Github</a>
 										</li>
 									</ul>
 								</div>

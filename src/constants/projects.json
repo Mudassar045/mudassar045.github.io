@@ -23,7 +23,7 @@
 		"id": 3,
 		"title": "NAChessHub",
 		"url": "https://www.nachesshub.com",
-		"image": "uschesshub.jpg",
+		"image": "nachesshub.png",
 		"description": "NA Chess Hub is a web site dedicated for chess events publishing and registration in the United States",
 		"tags": ["web"],
 		"tech": ["JS", "C#", ".NET Core"],

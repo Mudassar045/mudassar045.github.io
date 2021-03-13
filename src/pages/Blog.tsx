@@ -1,5 +1,4 @@
-import React from 'react'
-// import { FeedbackFish } from '@feedback-fish/react'
+import React, { useState } from 'react'
 
 import Layout from 'layout/Layout'
 
@@ -63,21 +62,20 @@ const Blog = () => {
 							<div className="column is-three-fifths is-narrow content">
 								<h1>My Blog</h1>
 								<p>
-									I'm not a professional blog writer, but what I write, it's based on my personal
-									knowledge (also borrowed from others) and experience.
+									I&apos;m not a professional blog writer, but what I write, it&apos;s based on my
+									personal knowledge (also borrowed from others) and experience.
 								</p>
 								<p>Here list of my cool writings:</p>
 								<ul>
 									<li>
 										<a
-											href="https://gist.github.com/Mudassar045"
+											href="https://gist.github.com/mudssrali"
 											target="_blank"
 											rel="noopener noreferrer">
 											Github Gist
 										</a>
 									</li>
 								</ul>
-								{}
 								<h2>Would love to hear from you!</h2>
 								<p>
 									*Powered by <a href="https://feedback.fish">feedback.fish</a>
@@ -124,14 +122,11 @@ const Blog = () => {
 									{submit
 										? 'Please hold on....'
 										: success
-										? 'Thank you!'
-										: failure
-										? 'Ahhh, please try again!'
-										: ''}
+											? 'Thank you!'
+											: failure
+												? 'Ahhh, please try again!'
+												: ''}
 								</p>
-								{/* <FeedbackFish projectId="451ebcb4c17dcc">
-                                    <NavButton><span>Send feedback</span></NavButton>
-                                </FeedbackFish> */}
 							</div>
 						</div>
 					</div>

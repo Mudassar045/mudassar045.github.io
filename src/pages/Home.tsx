@@ -1,6 +1,5 @@
 import React from 'react'
 
-import { Avatar } from 'assets/icon'
 import SiteConfig from 'constants/SiteConfig'
 import Layout from 'layout/Layout'
 import ExternLink from 'components/Link'
@@ -15,8 +14,14 @@ const Home = () => {
 						<div className="columns is-vcentered">
 							<div className="column is-three-fifths is-centered has-nice-link">
 								<div>
-									<img id="profile-pic" src={Avatar} width="140" height="140" alt="avatar" />
-									<h1 className="title is-3">Hi, I'm {SiteConfig.siteTitleAlt}</h1>
+									<img
+										id="profile-pic"
+										src="images/mudassar-ali.jpeg"
+										width="140"
+										height="140"
+										alt="avatar"
+									/>
+									<h1 className="title is-3">Hi, I&apos;m {SiteConfig.siteTitleAlt}</h1>
 									<p className="is-size-5">{SiteConfig.homeDescription}</p>
 								</div>
 								<hr style={{ borderColor: 'grey' }} />
@@ -39,8 +44,8 @@ const Home = () => {
 											sustainable tools for Education at{' '}
 											<a href="https://labs.cerp.org.pk"> CERP Labs</a>. Also planning and
 											designing various other&nbsp;
-											<ExternLink href="github.com/mudassar045" title="tools" /> to make this
-											world to grow with technology.
+											<ExternLink href="github.com/mudssrali" title="tools" /> to make this world
+											to grow with technology.
 										</p>
 									</div>
 								</div>
@@ -57,7 +62,7 @@ const Home = () => {
 											Open-source
 										</p>
 										<p>
-											Projects I've contributed to include{' '}
+											Projects I&apos;ve contributed to include{' '}
 											<ExternLink href="github.com/taniarascia/takenote" title="Takenote.dev" />
 											,&nbsp;
 											<ExternLink href="gridsome.com" title="Gridsome.org" />
