@@ -81,7 +81,7 @@ class ImageGallery extends Component {
 																<figure>
 																	<img
 																		className="image-gallery-item"
-																		src={`/${i}.jpeg`}
+																		src={`/images/motion/${i}.jpeg`}
 																		style={style}
 																		alt="any-profile"
 																	/>

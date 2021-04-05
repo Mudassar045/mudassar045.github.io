@@ -39,7 +39,8 @@ const Home = () => {
 											Current Projects
 										</p>
 										<p>
-											I work on <ExternLink href="mischool.pk" title={'MISchool'} /> and &nbsp;
+											Leading and working on <ExternLink href="mischool.pk" title={'MISchool'} />{' '}
+											and &nbsp;
 											<ExternLink href="ilmexchange.com" title="IlmExchange" />, trying to make
 											sustainable tools for Education at{' '}
 											<a href="https://labs.cerp.org.pk"> CERP Labs</a>. Also planning and

@@ -41,8 +41,8 @@ const ExternalWorkLinks: WorkLink[] = [
 		link: 'github.com/mudssrali/cond-construct#cond-construct'
 	},
 	{
-		title: 'EcmaScript 6 Utilities',
-		link: 'github.com/mudssrali/ES6-Utils'
+		title: 'Cool JavaScript Utilities',
+		link: 'github.com/mudssrali/js-helpers'
 	}
 ]
 
