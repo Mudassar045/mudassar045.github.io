@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/mudssrali
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://mudssrali.github.io
+  * I am mudssrali (https://keybase.io/mudssrali) on keybase.
+  * I have a public key ASCxROe03mjzrGhvBa4RQQvdE54urFE827Gp5xhsjMf4ggo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120b144e7b4de68f3ac686f05ae11410bdd139e2eac513cdbb1a9e7186c8cc7f8820a",
+      "host": "keybase.io",
+      "kid": "0120b144e7b4de68f3ac686f05ae11410bdd139e2eac513cdbb1a9e7186c8cc7f8820a",
+      "uid": "33d3b3cf4c33b21601967e188e1d9b19",
+      "username": "mudssrali"
+    },
+    "merkle_root": {
+      "ctime": 1617735953,
+      "hash": "f1eff868e1ad5ef64d79f5d60ef71dbe6d5789ad7617b209998fdfac01d575e72d97d8420e661d1de5d39c5cccde391b37533c1f304bb2d294514890383b2b5a",
+      "hash_meta": "7f01f488b69da871ca1618e75fa02a5e504fe60a27886ab53e29441c73f44261",
+      "seqno": 19561954
+    },
+    "service": {
+      "entropy": "F4SL2xIG3J9N2+15DDW55sXb",
+      "hostname": "mudssrali.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.6.1"
+  },
+  "ctime": 1617736030,
+  "expire_in": 504576000,
+  "prev": "ec39a1e20f0b29e5a1ac943fb2e16270413e959144dae09937a5d9ef18b2a77c",
+  "seqno": 8,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgsUTntN5o86xobwWuEUEL3ROeLqxRPNuxqecYbIzH+IIKp3BheWxvYWTESpcCCMQg7Dmh4g8LKeWhrJQ/suFicEE+lZFE2uCZN6XZ7xiyp3zEIEq1VGViv5HU1Jvn4YOu/yD3pLIMz9j78pfiEezq3uBIAgHCo3NpZ8RAno2+VK5Kci5mLUBO/l7T58yK3TXWa6PXDe8RMxLSXG4u8ay63pwV6Lf9/EQvZ8d7i5hi0V/mNaI9xe3gb7zvAKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEINty3zR2yodaRGeOHRQf1WU5Cy14bMUuaCulPGrQWNuco3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mudssrali
+
+==================================================================
