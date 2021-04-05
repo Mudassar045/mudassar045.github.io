@@ -17,11 +17,10 @@ const About = () => {
 									I’m a full-stack Software Developer, currently working at{' '}
 									<a href="https://labs.cerp.org.pk" rel="noopener noreferrer" target="_blank">
 										CERP Pakistan
-									</a>
-									. While, Working on the front-end, I add new features and improve UI/UX to reshape
-									the Progressive Web Apps experience. I have keen interest in design and user
-									experience. On the backend, create solutions with <strong>Elixir</strong>. I am also
-									an avid participant in several local and international open source projects on{' '}
+									</a>{' '}
+									. Building tools for education sector, thinking about creating a bridge between
+									technology and education. I am also an avid participant in several local and
+									international open source projects on{' '}
 									<a href={config.userGitHub} rel="noopener noreferrer" target="_blank">
 										GitHub
 									</a>
@@ -35,6 +34,11 @@ const About = () => {
 								</ul>
 								<h3>Find me</h3>
 								<ul>
+									<li>
+										<a href={config.resume} rel="noopener noreferrer" target="_blank">
+											My Resume
+										</a>
+									</li>
 									<li>
 										<a href={config.userGitHub} rel="noopener noreferrer" target="_blank">
 											GitHub

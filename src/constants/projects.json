@@ -24,13 +24,23 @@
 		"title": "NAChessHub",
 		"url": "https://www.nachesshub.com",
 		"image": "nachesshub.png",
-		"description": "NA Chess Hub is a web site dedicated for chess events publishing and registration in the United States",
+		"description": "NA Chess Hub is a website dedicated for chess events publishing and registration in North America. It's a multi-user platform where organizers can publish and manage their events, while chess players can register for published or upcoming events.",
 		"tags": ["web"],
 		"tech": ["JS", "C#", ".NET Core"],
 		"status": "completed"
 	},
 	{
 		"id": 4,
+		"title": "MondayJobs",
+		"url": "https://mondayjobs.ca",
+		"image": "mondayjobs.svg",
+		"description": "MondayJobs, an online, recurring job fairs platform, initially started for the Quebec market only. Now in the marketing and planning phase to expand it globally.",
+		"tags": ["web", "mobile"],
+		"tech": ["JS", "TS", "ReactJS", ".NET Core"],
+		"status": "completed (MVP)"
+	},
+	{
+		"id": 5,
 		"title": "Factsbook",
 		"url": "#/projects",
 		"image": "thefactsbook.png",
