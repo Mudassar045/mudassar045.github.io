@@ -5,11 +5,6 @@ import Layout from 'layout/Layout'
 const springSettings = { stiffness: 150, damping: 20 }
 const NEXT = 'show-next'
 
-interface S {
-	images: []
-	currImage: []
-}
-
 class ImageGallery extends Component {
 	state = {
 		images: [
@@ -86,7 +81,7 @@ class ImageGallery extends Component {
 																<figure>
 																	<img
 																		className="image-gallery-item"
-																		src={`image-gallery/${i}.jpeg`}
+																		src={`/${i}.jpeg`}
 																		style={style}
 																		alt="any-profile"
 																	/>
