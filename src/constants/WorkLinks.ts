@@ -38,7 +38,15 @@ const ExternalWorkLinks: WorkLink[] = [
 	},
 	{
 		title: "Cond Construct, Inspired by Elixir's cond",
-		link: 'github.com/mudssrali/cond-construct#cond-construct'
+		link: 'github.com/mudssrali/cond-construct'
+	},
+	{
+		title: 'Chunkify',
+		link: 'github.com/mudssrali/chunkify'
+	},
+	{
+		title: 'Elixir Enum Cheatsheet',
+		link: 'github.com/mudssrali/elixir-enum-cheatsheet'
 	},
 	{
 		title: 'Cool JavaScript Utilities',

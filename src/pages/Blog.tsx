@@ -65,7 +65,7 @@ const Blog = () => {
 									I&apos;m not a professional blog writer, but what I write, it&apos;s based on my
 									personal knowledge (also borrowed from others) and experience.
 								</p>
-								<p>Here list of my cool writings:</p>
+								<p>Here&apos;s list of my cool writings:</p>
 								<ul>
 									<li>
 										<a

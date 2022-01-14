@@ -6,7 +6,7 @@
 		"image": "mischool.ico",
 		"description": "MISchool is a management software system for schools. MISchool enables school to collect, organize, and store records giving your school full control of all academic, finance, wellbeing, and administrative information.",
 		"tags": ["web", "PWA"],
-		"tech": ["JS", "ReactJS", "Elixir"],
+		"tech": ["TS", "ReactJS", "Elixir"],
 		"status": "continue"
 	},
 	{
@@ -16,11 +16,31 @@
 		"image": "ilmx.png",
 		"description": "Ilm Exchange is a digital education platform that connects schools, teachers and students with affordable resources to enable quality teaching and learning across Pakistan.",
 		"tags": ["web", "PWA"],
-		"tech": ["JS", "ReactJS", "Elixir"],
+		"tech": ["TS", "ReactJS", "Elixir"],
 		"status": "continue"
 	},
 	{
 		"id": 3,
+		"title": "Science Bowl",
+		"url": "https://sciencebowlplatform.com",
+		"image": "sbp.svg",
+		"description": "A website designed to provide students with experiences that help them prepare for the science bowl competition. In the current beta version, the tool supports competitive play between two teams by enabling a gameful environment that provides a question bank and a reliable buzzer system, manages scoring and keeps track of game time. This system removes significant barriers to entry for the science bowl by removing the need for expensive equipment and personnel including the score and time keepers.",
+		"tags": ["web", "PWA"],
+		"tech": ["TS", "ReactJS", "Elixir"],
+		"status": "continue"
+	},
+	{
+		"id": 4,
+		"title": "Flight School Manager",
+		"url": "https://flightschoolmanager.co",
+		"image": "fsm.png",
+		"description": "Flight School Manager is a robust and powerful tool to manage your flight school. Manage your students, aircrafts, instructors and handle administrative tasks with ease. It’s a cross-platform that consists of several components including: payment processing, resource manager, appointment scheduler, learning management system, reports etc",
+		"tags": ["web", "android", "iOS"],
+		"tech": ["JS", "Elixir", "Phoenix"],
+		"status": "Continue"
+	},
+	{
+		"id": 5,
 		"title": "NAChessHub",
 		"url": "https://www.nachesshub.com",
 		"image": "nachesshub.png",
@@ -30,7 +50,7 @@
 		"status": "completed"
 	},
 	{
-		"id": 4,
+		"id": 6,
 		"title": "MondayJobs",
 		"url": "https://mondayjobs.ca",
 		"image": "mondayjobs.svg",
@@ -40,7 +60,7 @@
 		"status": "completed (MVP)"
 	},
 	{
-		"id": 5,
+		"id": 7,
 		"title": "Factsbook",
 		"url": "#/projects",
 		"image": "thefactsbook.png",
